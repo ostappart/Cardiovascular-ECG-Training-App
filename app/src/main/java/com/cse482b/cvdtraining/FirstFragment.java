@@ -1,6 +1,8 @@
 package com.cse482b.cvdtraining;
 
 import android.os.Bundle;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +30,15 @@ public class FirstFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        RadioGroup radioGroup = view.findViewById(R.id.radioGroup);
+
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                RadioButton radioButton = view.findViewById(checkedId);
+            }
+        });
 
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override

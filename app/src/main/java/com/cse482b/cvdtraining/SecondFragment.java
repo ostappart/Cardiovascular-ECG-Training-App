@@ -3,6 +3,7 @@ package com.cse482b.cvdtraining;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.CheckBox;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -28,6 +29,10 @@ public class SecondFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        CheckBox ch = (CheckBox) view.findViewById(R.id.checkBox);
+        CheckBox ch2 = (CheckBox) view.findViewById(R.id.checkBox2);
+        CheckBox ch3 = (CheckBox) view.findViewById(R.id.checkBox3);
 
         binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
             @Override
