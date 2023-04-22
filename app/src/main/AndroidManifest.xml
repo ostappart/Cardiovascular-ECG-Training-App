@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".selection_box.MainActivity"
+            android:label="@string/selection_box"/>
     </application>
 
 </manifest>

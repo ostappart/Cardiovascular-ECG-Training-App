@@ -1,7 +1,9 @@
 package com.cse482b.cvdtraining;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.cse482b.cvdtraining.selection_box.CanvasView;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -60,7 +62,9 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.selection_box) {
+            Intent intent = new Intent(this, com.cse482b.cvdtraining.selection_box.MainActivity.class);
+            startActivity(intent);
             return true;
         }
 
