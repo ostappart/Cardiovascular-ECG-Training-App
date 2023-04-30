@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/moduleItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/moduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#FFFFFF"
+        android:letterSpacing="-0.05"
+        android:paddingHorizontal="60dp"
+        android:paddingVertical="30dp"
+        android:text="Module 1 Name"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/moduleCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/moduleButton"
+        android:layout_alignBottom="@id/moduleButton"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@id/moduleButton"
+        android:adjustViewBounds="true"
+        android:contentDescription="Checkbox indicator of completed module"
+        android:src="@drawable/checkmark_empty" />
+</RelativeLayout>
