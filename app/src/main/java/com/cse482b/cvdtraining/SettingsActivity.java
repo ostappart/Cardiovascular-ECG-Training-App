@@ -21,7 +21,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         ListView topListView = findViewById(R.id.settings_top_list);
         ListView bottomListView = findViewById(R.id.settings_bottom_list);
-        Button settings = findViewById(R.id.homeButton);
+        Button settings = findViewById(R.id.home_button);
 
         List<String> topItemList = Arrays.asList(
                 "Dictionary"

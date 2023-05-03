@@ -14,10 +14,10 @@
         android:backgroundTint="#FFFFFF"
         android:background="@drawable/rounded"
         android:textColor="#000000"
-        android:textSize="28sp"
+        android:textSize="@dimen/_21ssp"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:padding="20dp"
+        android:padding="@dimen/_16ssp"
         app:layout_constraintTop_toBottomOf="@+id/top_guideline"
         app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
         app:layout_constraintRight_toLeftOf="@+id/settingsButton"
@@ -33,8 +33,8 @@
         android:text="⚙️"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="36sp"
-        android:layout_marginLeft="5dp"
+        android:textSize="@dimen/_29ssp"
+        android:layout_marginLeft="@dimen/_3ssp"
         app:layout_constraintLeft_toRightOf="@+id/home_title"
         app:layout_constraintRight_toRightOf="@+id/right_guideline"
         app:layout_constraintTop_toTopOf="@+id/top_guideline"
@@ -46,7 +46,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/rounded_rectangle"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="@dimen/_32ssp"
         app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
         app:layout_constraintRight_toLeftOf="@+id/right_guideline"
         app:layout_constraintTop_toBottomOf="@+id/home_title"
@@ -62,9 +62,9 @@
         android:backgroundTint="#FFFFFF"
         android:background="@drawable/rounded"
         android:textColor="#000000"
-        android:textSize="28sp"
-        android:padding="5dp"
-        android:layout_marginEnd="30dp"
+        android:textSize="@dimen/_22ssp"
+        android:padding="@dimen/_3ssp"
+        android:layout_marginEnd="@dimen/_10ssp"
         app:layout_constraintTop_toTopOf="@+id/module_background"
         app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
         app:layout_constraintRight_toLeftOf="@+id/settingsButton"
@@ -79,80 +79,6 @@
         app:layout_constraintTop_toBottomOf="@+id/lessons_text"
         app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
         app:layout_constraintRight_toLeftOf="@+id/right_guideline">
-
-<!--        <RelativeLayout-->
-<!--            android:id="@+id/moduleItem"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent">-->
-
-<!--            <Button-->
-<!--                android:id="@+id/moduleButton"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/rounded"-->
-<!--                android:backgroundTint="#FFFFFF"-->
-<!--                android:paddingVertical="30dp"-->
-<!--                android:paddingHorizontal="60dp"-->
-<!--                android:text="Module 1 Name"-->
-<!--                android:textAllCaps="false"-->
-<!--                android:textAlignment="center"-->
-<!--                android:textColor="#000000"-->
-<!--                android:letterSpacing="-0.05"-->
-<!--                android:textSize="24sp"-->
-<!--                android:layout_marginTop="25dp"-->
-<!--                android:layout_marginLeft="15dp"-->
-<!--                />-->
-
-<!--            <ImageView-->
-<!--                android:id="@+id/moduleCheck"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:contentDescription="Checkbox indicator of completed module"-->
-<!--                android:src="@drawable/checkmark_empty"-->
-<!--                android:layout_alignTop="@id/moduleButton"-->
-<!--                android:layout_alignBottom="@id/moduleButton"-->
-<!--                android:layout_toEndOf="@id/moduleButton"-->
-<!--                android:adjustViewBounds="true"-->
-<!--                android:layout_margin="5dp"-->
-<!--                />-->
-<!--        </RelativeLayout>-->
-
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent">-->
-
-<!--            <Button-->
-<!--                android:id="@+id/moduleButton2"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/rounded"-->
-<!--                android:backgroundTint="#FFFFFF"-->
-<!--                android:paddingVertical="30dp"-->
-<!--                android:paddingHorizontal="60dp"-->
-<!--                android:text="Module 2 Name"-->
-<!--                android:textAllCaps="false"-->
-<!--                android:textAlignment="center"-->
-<!--                android:textColor="#000000"-->
-<!--                android:letterSpacing="-0.05"-->
-<!--                android:textSize="24sp"-->
-<!--                android:layout_marginTop="25dp"-->
-<!--                android:layout_marginLeft="15dp"-->
-<!--                />-->
-
-<!--            <ImageView-->
-<!--                android:id="@+id/moduleCheck2"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:contentDescription="Checkbox indicator of completed module"-->
-<!--                android:src="@drawable/checkmark_empty"-->
-<!--                android:layout_alignTop="@id/moduleButton2"-->
-<!--                android:layout_alignBottom="@id/moduleButton2"-->
-<!--                android:layout_toEndOf="@id/moduleButton2"-->
-<!--                android:adjustViewBounds="true"-->
-<!--                android:layout_margin="5dp"-->
-<!--                />-->
-<!--        </RelativeLayout>-->
-
     </ListView>
 
     <androidx.constraintlayout.widget.Guideline
