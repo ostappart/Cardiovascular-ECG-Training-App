@@ -19,12 +19,22 @@ public class LessonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson);
 
-        Button settings = findViewById(R.id.lesson_home_button);
+        Button home = findViewById(R.id.lesson_home_button);
+        Button help = findViewById(R.id.lesson_help_button);
 
-        settings.setOnClickListener(new View.OnClickListener() {
+
+        home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(LessonActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LessonActivity.this, SettingsActivity.class);
                 startActivity(intent);
             }
         });

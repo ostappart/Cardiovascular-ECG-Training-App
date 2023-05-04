@@ -1,18 +1,16 @@
 package com.cse482b.cvdtraining;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.text.Editable;
+import android.text.InputType;
 import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextWatcher;
 import android.text.style.AlignmentSpan;
-import android.view.Gravity;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -72,6 +70,9 @@ public class WelcomeActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {}
         });
+
+        mEditText.setImeOptions(EditorInfo.IME_ACTION_DONE);
+        mEditText.setRawInputType(InputType.TYPE_CLASS_TEXT);
     }
 }
 

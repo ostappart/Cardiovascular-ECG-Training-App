@@ -24,16 +24,26 @@ public class SettingsActivity extends AppCompatActivity {
         Button settings = findViewById(R.id.home_button);
 
         List<String> topItemList = Arrays.asList(
-                "Dictionary"
+                "Dictionary",
+                "Example",
+                "Example"
         );
         List<String> topActivityList = Arrays.asList(
+                "",
+                "",
                 ""
         );
         List<String> bottomItemList = Arrays.asList(
-                "Reset All Lessons"
+                "Reset All Lessons",
+                "Example",
+                "Example",
+                "Example"
         );
         List<String> bottomActivityList = Arrays.asList(
-                "ResetModuleDialogActivity"
+                "ResetModuleDialogActivity",
+                "",
+                "",
+                ""
         );
 
         ListAdapter topAdapter = new ListAdapter(this, topItemList, topActivityList, false);

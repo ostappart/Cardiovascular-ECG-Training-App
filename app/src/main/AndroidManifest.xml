@@ -34,7 +34,7 @@
             android:name=".SettingsActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="true" >
+            android:noHistory="false" >
         </activity>
         <activity
             android:name=".ResetModuleDialogActivity"

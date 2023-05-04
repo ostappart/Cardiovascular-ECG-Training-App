@@ -1,5 +1,4 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/home_layout"
     android:layout_width="match_parent"
@@ -70,13 +69,16 @@
         app:layout_constraintRight_toLeftOf="@+id/settingsButton"
         />
 
-
     <ListView
-        android:id="@+id/moduleList"
+        android:id="@+id/module_list"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="vertical"
+        android:layout_marginTop="@dimen/_8ssp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
         app:layout_constraintTop_toBottomOf="@+id/lessons_text"
+        app:layout_constraintBottom_toBottomOf="@id/list_bottom_guideline"
         app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
         app:layout_constraintRight_toLeftOf="@+id/right_guideline">
     </ListView>
@@ -108,5 +110,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.98" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/list_bottom_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.94" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

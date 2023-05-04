@@ -19,16 +19,24 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        ListView listView = findViewById(R.id.moduleList);
+        ListView listView = findViewById(R.id.module_list);
         Button settings = findViewById(R.id.settingsButton);
         List<String> itemList = Arrays.asList(
                 "Module 1 Name",
                 "Module 2 Name",
                 "Module 3 Name",
-                "Module 4 Name"
+                "Module 4 Name",
+                "Module 5 Name",
+                "Module 6 Name",
+                "Module 7 Name",
+                "Module 8 Name"
         );
 
         List<String> activityList = Arrays.asList(
+                "LessonActivity",
+                "",
+                "",
+                "",
                 "",
                 "",
                 "",

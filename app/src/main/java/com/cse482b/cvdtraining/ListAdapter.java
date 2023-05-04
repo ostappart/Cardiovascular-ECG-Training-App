@@ -15,6 +15,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
+
 import java.util.List;
 
 public class ListAdapter extends ArrayAdapter<String> {
@@ -37,15 +39,13 @@ public class ListAdapter extends ArrayAdapter<String> {
         if (convertView == null) {
             // Inflate a new layout for the row
             convertView = LayoutInflater.from(mContext).inflate(R.layout.list_item, parent, false);
-            // Create a new TextView and set it as the convertView's tag
-            textView = convertView.findViewById(R.id.moduleButton);
-            convertView.setTag(textView);
-        } else {
-            textView = (TextView) convertView.getTag();
         }
         // Set the text of the TextView to the item at the current position
         String moduleName = mItemList.get(position);
-        textView.setText(moduleName);
+        textView = convertView.findViewById(R.id.module_button);
+        if (moduleName != null) {
+            textView.setText(moduleName);
+        }
 
         String activityName = mActivityList.get(position);
         if (!activityName.equals("")) {
@@ -63,12 +63,12 @@ public class ListAdapter extends ArrayAdapter<String> {
             });
         }
 
-        ImageView moduleCheck = convertView.findViewById(R.id.moduleCheck);
+        ImageView moduleCheck = convertView.findViewById(R.id.module_check);
         // remove ImageView for non-module lists
         if (!mForModule) {
             ((ViewGroup) convertView).removeView(moduleCheck);
 
-            RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) textView.getLayoutParams();
+            ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) textView.getLayoutParams();
             params.width = ActionBar.LayoutParams.MATCH_PARENT;
             params.setMargins(30, 30, 30, 30);
             int padding = 16;
@@ -80,7 +80,6 @@ public class ListAdapter extends ArrayAdapter<String> {
 
         String completionKey = moduleName + "-completion";
         String value = GlobalMethods.getPreference(mContext, completionKey, "");
-        System.out.println(position + " " + completionKey + " " + value);
         switch (value) {
             case "COMPLETED":
                 moduleCheck.setImageResource(R.drawable.checkmark);
