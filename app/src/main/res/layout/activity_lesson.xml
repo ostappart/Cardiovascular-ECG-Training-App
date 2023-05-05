@@ -4,15 +4,15 @@
     android:id="@+id/lesson_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#efdff9">
+    android:background="@color/colorPrimary">
 
     <TextView
         android:id="@+id/lessons_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="ECG Basics Lesson"
-        android:backgroundTint="#FFFFFF"
-        android:background="@drawable/rounded_purple"
+        android:backgroundTint="@color/eggshell_white"
+        android:background="@drawable/rounded_40dp"
         android:textColor="#000000"
         android:textSize="@dimen/_20ssp"
         android:textStyle="bold"
@@ -38,11 +38,11 @@
         android:id="@+id/practice_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/rounded_purple"
+        android:background="@drawable/rounded_40dp"
         android:text="    Practice    "
         android:padding="10dp"
         android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/eggshell_white"
         android:textSize="@dimen/_10ssp"
         app:layout_constraintBottom_toTopOf="@+id/lesson_help_button"
         app:layout_constraintRight_toLeftOf="@id/right_guideline"

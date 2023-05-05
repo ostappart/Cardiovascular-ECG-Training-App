@@ -70,9 +70,9 @@ public class ListAdapter extends ArrayAdapter<String> {
 
             ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) textView.getLayoutParams();
             params.width = ActionBar.LayoutParams.MATCH_PARENT;
-            params.setMargins(30, 30, 30, 30);
-            int padding = 16;
-            textView.setPadding(padding, 0, padding, 0);
+//            params.setMargins(30, 30, 30, 30);
+//            int padding = 16;
+//            textView.setPadding(padding, 0, padding, 0);
             textView.setLayoutParams(params);
 
             return convertView;
@@ -82,7 +82,7 @@ public class ListAdapter extends ArrayAdapter<String> {
         String value = GlobalMethods.getPreference(mContext, completionKey, "");
         switch (value) {
             case "COMPLETED":
-                moduleCheck.setImageResource(R.drawable.checkmark);
+                moduleCheck.setImageResource(R.drawable.cvd_check);
                 ColorMatrix matrix = new ColorMatrix();
                 matrix.setSaturation(1);
                 ColorMatrixColorFilter cf = new ColorMatrixColorFilter(matrix);
@@ -90,18 +90,13 @@ public class ListAdapter extends ArrayAdapter<String> {
                 moduleCheck.setImageAlpha(255);
                 break;
             case "UNLOCKED":
-                moduleCheck.setImageResource(R.drawable.checkmark_empty);
+                moduleCheck.setImageResource(R.drawable.cvd_unlock);
                 break;
             case "LOCKED":
             case "":
                 if (value.equals(""))
                     GlobalMethods.setPreference(mContext, completionKey, position == 0 ? "UNLOCKED" : "LOCKED");
-                moduleCheck.setImageResource(R.drawable.checkmark);
-                matrix = new ColorMatrix();
-                matrix.setSaturation(0);  // 0 means grayscale
-                cf = new ColorMatrixColorFilter(matrix);
-                moduleCheck.setColorFilter(cf);
-                moduleCheck.setImageAlpha(128);   // 128 = 0.5
+                moduleCheck.setImageResource(R.drawable.cvd_lock);
                 break;
         }
 

@@ -3,7 +3,7 @@ package com.cse482b.cvdtraining;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,40 +17,24 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+        setContentView(R.layout.activity_help);
 
-        ListView topListView = findViewById(R.id.settings_top_list);
-        ListView bottomListView = findViewById(R.id.settings_bottom_list);
-        Button settings = findViewById(R.id.home_button);
+        ListView helpList = findViewById(R.id.help_list);
+        ImageView settings = findViewById(R.id.home_button);
 
-        List<String> topItemList = Arrays.asList(
+        List<String> itemList = Arrays.asList(
                 "Dictionary",
-                "Example",
-                "Example"
+                "Reset",
+                "About"
         );
-        List<String> topActivityList = Arrays.asList(
+        List<String> activityList = Arrays.asList(
                 "",
-                "",
-                ""
-        );
-        List<String> bottomItemList = Arrays.asList(
-                "Reset All Lessons",
-                "Example",
-                "Example",
-                "Example"
-        );
-        List<String> bottomActivityList = Arrays.asList(
                 "ResetModuleDialogActivity",
-                "",
-                "",
                 ""
         );
 
-        ListAdapter topAdapter = new ListAdapter(this, topItemList, topActivityList, false);
-        topListView.setAdapter(topAdapter);
-
-        ListAdapter bottomAdapter = new ListAdapter(this, bottomItemList, bottomActivityList, false);
-        bottomListView.setAdapter(bottomAdapter);
+        ListAdapter topAdapter = new ListAdapter(this, itemList, activityList, false);
+        helpList.setAdapter(topAdapter);
 
         settings.setOnClickListener(new View.OnClickListener() {
             @Override
