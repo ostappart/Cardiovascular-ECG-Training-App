@@ -15,9 +15,17 @@ public class LessonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson);
 
+        Button practice = findViewById(R.id.practice_button);
         Button home = findViewById(R.id.lesson_home_button);
         Button help = findViewById(R.id.lesson_help_button);
 
+        practice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LessonActivity.this, PracticeActivity.class);
+                startActivity(intent);
+            }
+        });
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
