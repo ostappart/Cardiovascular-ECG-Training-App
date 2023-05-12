@@ -20,7 +20,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         ListView listView = findViewById(R.id.module_list);
-        Button settings = findViewById(R.id.settingsButton);
+        Button settings = findViewById(R.id.help_button);
         List<String> itemList = Arrays.asList(
                 "Module 1 Name",
                 "Module 2 Name",

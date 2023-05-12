@@ -39,7 +39,7 @@
         android:id="@+id/help_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/rounded_20dp_border"
+        android:background="@drawable/rounded_40dp_border"
         android:backgroundTint="@color/eggshell_white"
         android:paddingVertical="@dimen/_8ssp"
         android:paddingHorizontal="@dimen/_50ssp"

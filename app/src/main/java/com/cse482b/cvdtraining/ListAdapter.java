@@ -40,11 +40,13 @@ public class ListAdapter extends ArrayAdapter<String> {
             // Inflate a new layout for the row
             convertView = LayoutInflater.from(mContext).inflate(R.layout.list_item, parent, false);
         }
+
         // Set the text of the TextView to the item at the current position
         String moduleName = mItemList.get(position);
         textView = convertView.findViewById(R.id.module_button);
         if (moduleName != null) {
             textView.setText(moduleName);
+            textView.setTag(moduleName);
         }
 
         String activityName = mActivityList.get(position);
@@ -55,6 +57,7 @@ public class ListAdapter extends ArrayAdapter<String> {
                     try {
                         Class<?> classActivityName = Class.forName(getContext().getPackageName() + "." + activityName);
                         Intent intent = new Intent(getContext(), classActivityName);
+                        intent.putExtra("module_name", moduleName);
                         startActivity(getContext(), intent, null);
                     } catch (ClassNotFoundException e) {
                         e.printStackTrace();

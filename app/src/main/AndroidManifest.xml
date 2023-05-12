@@ -47,6 +47,12 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:noHistory="true">
         </activity>
+        <activity
+            android:name=".HTMLActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:noHistory="true">
+        </activity>
 
 
         <!-- Demos -->
