@@ -1,6 +1,6 @@
 package com.cse482b.cvdtraining;
 
-import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,7 +18,34 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.cse482b.cvdtraining.databinding.FragmentSecondBinding;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
 public class SecondFragment extends Fragment implements View.OnClickListener {
+    private static class Question {
+        public String text;
+        public String imagePath;
+        public int correctIndex;
+        public String[] answerOptions;
+
+        Question(String text, String imagePath, String[] answerOptions) {
+            this.text = text;
+            this.imagePath = imagePath;
+            if (answerOptions.length == 2) {
+                this.correctIndex = 0;
+                this.answerOptions = answerOptions;
+            } else {
+                // TODO: Shuffle answer options
+            }
+        }
+
+        public boolean isCorrect(String answer) {
+            return answer.equals(answerOptions[correctIndex]);
+        }
+    }
 
     private FragmentSecondBinding binding;
 
@@ -28,13 +55,39 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
     private ImageButton prevButton;
     private ImageView Image;
     private TextView questionTextView;
+
+    private ArrayList<Question> questions;
     private int currentQuestionIndex = 0; // TODO: save visited question scores and use to recommend questions
+
+    private void loadQuestions() {
+        // Expected format (3 lines per question):
+        // [Question Type]
+        // [Image Path]
+        // [Answer Options - first one should be the correct one]
+        questions = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(
+                new InputStreamReader(requireContext().getAssets().open("questions.txt")))) {
+
+            String mLine;
+            while ((mLine = reader.readLine()) != null) {
+                int resId = getResources().getIdentifier(mLine, "string", requireContext().getPackageName());
+                String questionText = getResources().getString(resId);
+                String imagePath = reader.readLine();
+                String[] answerOptions = reader.readLine().split(", ");
+                questions.add(new Question(questionText, imagePath, answerOptions));
+            }
+        } catch (IOException e) {
+            Log.d("SecondFragment", "loadQuestions: couldn't open file");
+        }
+    }
 
     @Override
     public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
+            @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
+
+        loadQuestions();
 
         binding = FragmentSecondBinding.inflate(inflater, container, false);
         return binding.getRoot();
@@ -44,17 +97,13 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // setting up the buttons
-        // associated with id
         falseButton = view.findViewById(R.id.false_button);
         trueButton = view.findViewById(R.id.true_button);
         nextButton = view.findViewById(R.id.next_button);
         prevButton = view.findViewById(R.id.prev_button);
-        // register our buttons to listen to
-        // click events
-        questionTextView
-                = view.findViewById(R.id.answer_text_view);
+        questionTextView = view.findViewById(R.id.answer_text_view);
         Image = view.findViewById(R.id.question_image);
+
         falseButton.setOnClickListener(this);
         trueButton.setOnClickListener(this);
         nextButton.setOnClickListener(this);
@@ -64,6 +113,8 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
                 NavHostFragment.findNavController(SecondFragment.this)
                 .navigate(R.id.action_SecondFragment_to_FirstFragment)
         );
+
+        updateQuestion();
     }
 
     @Override
@@ -74,24 +125,20 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        // checking which button is
-        // clicked by user
-        // in this case user choose false
         switch (v.getId()) {
             case R.id.false_button:
-                checkAnswer(false);
+                checkAnswer("False");
                 break;
 
             case R.id.true_button:
-                checkAnswer(true);
+                checkAnswer("True");
                 break;
 
             case R.id.next_button:
-                // go to next question
-                if (currentQuestionIndex < 7) { // TODO: should be number of questions, not 7
+                if (currentQuestionIndex < questions.size()) {
                     currentQuestionIndex = currentQuestionIndex + 1;
-                    if (currentQuestionIndex == 6) {
-                        questionTextView.setText("Hurra!");
+                    if (currentQuestionIndex == questions.size()) {
+                        questionTextView.setText("No More Questions :(");
                         nextButton.setVisibility(
                                 View.INVISIBLE);
                         prevButton.setVisibility(
@@ -108,7 +155,7 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.prev_button:
                 if (currentQuestionIndex > 0) {
-                    // TODO: set currentQuestionIndex
+                    currentQuestionIndex--;
                     updateQuestion();
                 }
         }
@@ -118,22 +165,24 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         // TODO: add question types
         Log.d("SecondFragment", "updateQuestion: " + currentQuestionIndex);
 
-        questionTextView.setText("Text of the current question"); // TODO
+        Question current = questions.get(currentQuestionIndex);
 
-        switch (currentQuestionIndex) {
-            case 1:
-                // setting up image for each question
-                // Image.setImageResource(R.drawable.q1);
-                Image.setImageBitmap(BitmapFactory.decodeFile("assets/"));
-                break;
+        questionTextView.setText(current.text);
+
+        try {
+            InputStream ims = requireContext().getAssets().open(current.imagePath);
+            Drawable d = Drawable.createFromStream(ims, null);
+            Image.setImageDrawable(d);
+        } catch (IOException e) {
+            Log.d("SecondFragment", "updateQuestion: couldn't find image file");
         }
     }
-    private void checkAnswer(boolean userChooseCorrect) {
-        boolean answerIsTrue = true; // TODO: set to whether currentQuestionIndex is true
+
+    private void checkAnswer(String userAnswer) {
         int toastMessageId;
 
-        if (userChooseCorrect == answerIsTrue) {
-            toastMessageId = R.string.True;
+        if (questions.get(currentQuestionIndex).isCorrect(userAnswer)) {
+            toastMessageId = R.string.True; // TODO: actual message of whether user was correct
         } else {
             toastMessageId = R.string.False;
         }
