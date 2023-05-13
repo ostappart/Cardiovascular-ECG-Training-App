@@ -25,6 +25,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class SecondFragment extends Fragment implements View.OnClickListener {
     private static class Question {
@@ -40,7 +43,11 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
                 this.correctIndex = 0;
                 this.answerOptions = answerOptions;
             } else {
-                // TODO: Shuffle answer options
+                String correct = answerOptions[0];
+                List<String> options = Arrays.asList(answerOptions);
+                Collections.shuffle(options);
+                this.answerOptions = options.toArray(new String[0]);
+                this.correctIndex = options.indexOf(correct);
             }
         }
 
@@ -66,7 +73,7 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
 
     /** Question Data */
     private String questionCategory;
-    private ArrayList<Question> questions;
+    private List<Question> questions;
     private int currentQuestionIndex = 0;
 
     private void loadQuestions() {
@@ -184,11 +191,21 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         if (currentQuestionIndex == questions.size()) {
             questionTextView.setText(R.string.noMoreQuestions);
             nextButton.setVisibility(View.INVISIBLE);
-            prevButton.setVisibility(View.INVISIBLE);
             trueButton.setVisibility(View.INVISIBLE);
             falseButton.setVisibility(View.INVISIBLE);
+            Image.setVisibility(View.INVISIBLE);
+
+            prevButton.setVisibility(View.VISIBLE);
             return;
+        } else {
+            nextButton.setVisibility(View.VISIBLE);
+            trueButton.setVisibility(View.VISIBLE);
+            falseButton.setVisibility(View.VISIBLE);
+            Image.setVisibility(View.VISIBLE);
         }
+
+        if (currentQuestionIndex == 0) prevButton.setVisibility(View.INVISIBLE);
+        else prevButton.setVisibility(View.VISIBLE);
 
         Question current = questions.get(currentQuestionIndex);
 
