@@ -1,0 +1,888 @@
+isItAtrialFibrilationOrSinus
+images/9woyl5a1f160p092t2dqs38i8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2fmv2vcm79n8cf7uqwk6gxtc9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9tlks720sshuxxus2xz2bue8o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8naydmax2dtnmq0mx1kcwid3t.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/39t9xph7d4fn7l3lzwvezaldm.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2hyx8o4cvqhekd7n24yzv37ei.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c2hyu9g170ro6v6s68ihaz2nd.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5udr67oxfgxarwssargjfxcyb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bv132eaa08vlpvsdiq20k16ui.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1np8rlqthcuxxvdg6juwq8o9m.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c2ufafm5cwerl898qr25fh9o5.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ax449p6v8ma63kyqzns8mikau.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2wlekby0xk6zhtmd4t7nd98bx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c2hyu9g170ro6v6s68ihaz2nd.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3cru9zp52dti6eycxkw51x385.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5g6o46fc97v4xer8s6bl443tb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/987f00nu9k4jzhwhs2gb1eayl.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5c7wqmrva55u41v0lxc4dxqve.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7jy75a19hnkdp0pbi5hu6rza7.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6yxfrrsmev9hzgx9joiru3a9m.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/987f00nu9k4jzhwhs2gb1eayl.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1np8rlqthcuxxvdg6juwq8o9m.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/btha5xgv6hsmyqostrk2gim06.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/1qzmwd5i3biorscou1rwkrljo.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5udr67oxfgxarwssargjfxcyb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d6ch6g088v69gywv7wadjw75w.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bk3uitxn815lso6ftv1qsxxkx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5sabwac11d35d3fv0ffhaiphp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7q7c4p9fyfy18i4kuzrqq2wj9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8naydmax2dtnmq0mx1kcwid3t.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/e6gq8w11bq0mwa7d4p1cda8f3.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/4qw3dji8zjdkpv108dahyxzy5.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d6ch6g088v69gywv7wadjw75w.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cluashqx6ftxffue44czyag3d.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bfab50kch5p88ahgmq04qfvi8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bnlb110trpqlfkq2co0db10vg.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/9ljdg5detw698fvw65qmjruon.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/en5wc9h3upl9rsxr8iahnn2wb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5g6o46fc97v4xer8s6bl443tb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4debgh528pzom2quhpiwxmdyl.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/23oyogchkel32zeg4xshgn3lo.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2fmv2vcm79n8cf7uqwk6gxtc9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/dv6xk3w8hyoz0gp12cxthv69o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/dke3qud9syvxcu0jh2psarkcn.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5g6o46fc97v4xer8s6bl443tb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9o862s88c4mxb34li7gf73ifs.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9ba4b5j8chpfl9bo1zvt3nhad.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/325laysp1eoma59z2hv5wap3y.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3r1vppj0qxja1xvlyxn0rtldc.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d6ch6g088v69gywv7wadjw75w.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cg24f5dkpoe9rz29fktok68cn.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/49hqoicjplgh2elrgxphazny1.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/btha5xgv6hsmyqostrk2gim06.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/7qe2ltwlp9887brovksnl8ocm.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bnlb110trpqlfkq2co0db10vg.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/9kyeo08y4sjsr0z75v9ncw7v9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/degg3nf31ruohcanosx040g35.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/b5unbhdmv33heqzltc11mala8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bip9ztjpvd1zz2t908ucuhdfs.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5udr67oxfgxarwssargjfxcyb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1loruwx841ezosdxgwekew04u.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1a4smrl5zfiaap1ywo2akvnk8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/big43p5vybh0s4yya3pw878e1.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/49hqoicjplgh2elrgxphazny1.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5zx3ntga1fj3u0182b66np327.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/7epg852jrjo5o0d3xmlu1ks68.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bv132eaa08vlpvsdiq20k16ui.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/621m20bofp2bqzb4404o18fda.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/dwh35a6gzosp9i3wvx3v02d04.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/en5wc9h3upl9rsxr8iahnn2wb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bv132eaa08vlpvsdiq20k16ui.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3r1vppj0qxja1xvlyxn0rtldc.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bk3uitxn815lso6ftv1qsxxkx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7qe2ltwlp9887brovksnl8ocm.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/60urwl4wnjybgo572hhei49ey.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/202shj7bryakno213on73p49a.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/23oyogchkel32zeg4xshgn3lo.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1a4smrl5zfiaap1ywo2akvnk8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1glmjqh7a9wi92ah26ciq8l0a.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/b8bng9n4jbr4uu3cc2p6hk26.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7qe2ltwlp9887brovksnl8ocm.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5c7wqmrva55u41v0lxc4dxqve.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bk3uitxn815lso6ftv1qsxxkx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5zx3ntga1fj3u0182b66np327.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/eevk636wudla8v1jjf5zqt1cp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ccmslftsq330w8vfrbxtlu784.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bip9ztjpvd1zz2t908ucuhdfs.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8rh65bkhc2gehffql5okd5uu0.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9ljdg5detw698fvw65qmjruon.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5y5qevobpk1bu1uq2a8vfyy5d.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7jy75a19hnkdp0pbi5hu6rza7.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1a4smrl5zfiaap1ywo2akvnk8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c2ufafm5cwerl898qr25fh9o5.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/e6gq8w11bq0mwa7d4p1cda8f3.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/bnlb110trpqlfkq2co0db10vg.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/5154fbbzepjqqzdinp6k6gj6k.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8gjtetf7c9wjpbf850z3mqbpr.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8h88briq154nw9sxajs2xiuz3.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cg24f5dkpoe9rz29fktok68cn.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d2129t2epn8wx2jb8h26zkrfp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6wupqr0i99joi5w7u2s5zvgu8.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/8gjtetf7c9wjpbf850z3mqbpr.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4debgh528pzom2quhpiwxmdyl.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cwz1xmvp8q53z69o1n8noweec.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/35oha2osokhgmonn9451v2em6.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7i50obz41ilibdpsv6viul96.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/325laysp1eoma59z2hv5wap3y.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/55uefbtllirmpn5vhdm3o5uw4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5sabwac11d35d3fv0ffhaiphp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8h88briq154nw9sxajs2xiuz3.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7q7c4p9fyfy18i4kuzrqq2wj9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/88fj7onqpj5u94f6hhg8tl4d4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/e0lac9drygjsyrlg9uclka4du.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2mzhelemaptxvbhvqkwp1wexx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9aqb8im96nrswcc70gsnp1uva.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/521pm320f60yvzgicamcqjwo8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4fftj5t6p2b0x8h1t4a201947.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/uhrkgycbb3zwgll68mxt1x1p.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/55uefbtllirmpn5vhdm3o5uw4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ccmslftsq330w8vfrbxtlu784.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/uhrkgycbb3zwgll68mxt1x1p.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c8tvj64npx4ardfia34wg436o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5sabwac11d35d3fv0ffhaiphp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d09upviycvo6n2ciqz6omivcg.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/a56xswyvt99xxn02gwcfn7oeh.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/82kmc6rwi4tgw6nwv9jubrez7.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/2fmv2vcm79n8cf7uqwk6gxtc9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/b5unbhdmv33heqzltc11mala8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1loruwx841ezosdxgwekew04u.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4uzj4s5wj8u5ym874uuil262y.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/49hqoicjplgh2elrgxphazny1.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/dv6xk3w8hyoz0gp12cxthv69o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7ziov3z8dr6uygy0aqwxbe3v4.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/eevk636wudla8v1jjf5zqt1cp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6et92wie8msmtzf3lfncox07g.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/a56xswyvt99xxn02gwcfn7oeh.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cwz1xmvp8q53z69o1n8noweec.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9kyeo08y4sjsr0z75v9ncw7v9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2hyx8o4cvqhekd7n24yzv37ei.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8naydmax2dtnmq0mx1kcwid3t.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8rh65bkhc2gehffql5okd5uu0.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3r1vppj0qxja1xvlyxn0rtldc.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8kdeum49ch41q6oantqnr22ad.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bfab50kch5p88ahgmq04qfvi8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2kmx7de04n24heibgf50enqeb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/b8bng9n4jbr4uu3cc2p6hk26.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/b8bng9n4jbr4uu3cc2p6hk26.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1glmjqh7a9wi92ah26ciq8l0a.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5p5kw8dtwkqqgwovpx42j8lt0.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/202shj7bryakno213on73p49a.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/39t9xph7d4fn7l3lzwvezaldm.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/eevk636wudla8v1jjf5zqt1cp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6yxfrrsmev9hzgx9joiru3a9m.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4qw3dji8zjdkpv108dahyxzy5.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7ztg26txo01teyht7zxsz2bu4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8h88briq154nw9sxajs2xiuz3.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/odu79n57qn42z6n4bmrofi80.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5154fbbzepjqqzdinp6k6gj6k.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c2hyu9g170ro6v6s68ihaz2nd.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5zx3ntga1fj3u0182b66np327.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/f4miu2wj8qjt0cn49xoe9oefu.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ao8it21bki0q4i2zmdp4mg6t6.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/odu79n57qn42z6n4bmrofi80.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/325laysp1eoma59z2hv5wap3y.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3vy6bjpl5m1qm686onoimydut.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4debgh528pzom2quhpiwxmdyl.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2wlekby0xk6zhtmd4t7nd98bx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3cru9zp52dti6eycxkw51x385.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6wupqr0i99joi5w7u2s5zvgu8.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/9kyeo08y4sjsr0z75v9ncw7v9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/degg3nf31ruohcanosx040g35.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3cru9zp52dti6eycxkw51x385.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/g442ao70emet2ir8hamvb7l9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2mzhelemaptxvbhvqkwp1wexx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1qzmwd5i3biorscou1rwkrljo.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9woyl5a1f160p092t2dqs38i8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bfab50kch5p88ahgmq04qfvi8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2kmx7de04n24heibgf50enqeb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cluashqx6ftxffue44czyag3d.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1glmjqh7a9wi92ah26ciq8l0a.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1azxr5cwfq209wbd1om4noa18.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c8tvj64npx4ardfia34wg436o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9o862s88c4mxb34li7gf73ifs.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/en5wc9h3upl9rsxr8iahnn2wb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1qzmwd5i3biorscou1rwkrljo.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6pqwpsddpcosgaftjb02oar6w.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/e6gq8w11bq0mwa7d4p1cda8f3.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/2mzhelemaptxvbhvqkwp1wexx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/f4miu2wj8qjt0cn49xoe9oefu.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7ziov3z8dr6uygy0aqwxbe3v4.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/1azxr5cwfq209wbd1om4noa18.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7epg852jrjo5o0d3xmlu1ks68.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/35oha2osokhgmonn9451v2em6.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4fftj5t6p2b0x8h1t4a201947.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/e0lac9drygjsyrlg9uclka4du.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5p5kw8dtwkqqgwovpx42j8lt0.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4fftj5t6p2b0x8h1t4a201947.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/dke3qud9syvxcu0jh2psarkcn.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/g442ao70emet2ir8hamvb7l9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ao8it21bki0q4i2zmdp4mg6t6.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/8gjtetf7c9wjpbf850z3mqbpr.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5c7wqmrva55u41v0lxc4dxqve.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/39t9xph7d4fn7l3lzwvezaldm.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5y5qevobpk1bu1uq2a8vfyy5d.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6wupqr0i99joi5w7u2s5zvgu8.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/7q7c4p9fyfy18i4kuzrqq2wj9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7jy75a19hnkdp0pbi5hu6rza7.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ax449p6v8ma63kyqzns8mikau.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3vy6bjpl5m1qm686onoimydut.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4uzj4s5wj8u5ym874uuil262y.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2hyx8o4cvqhekd7n24yzv37ei.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/521pm320f60yvzgicamcqjwo8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9woyl5a1f160p092t2dqs38i8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/987f00nu9k4jzhwhs2gb1eayl.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/35oha2osokhgmonn9451v2em6.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d09upviycvo6n2ciqz6omivcg.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6pqwpsddpcosgaftjb02oar6w.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5y5qevobpk1bu1uq2a8vfyy5d.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7i50obz41ilibdpsv6viul96.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/dwh35a6gzosp9i3wvx3v02d04.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/521pm320f60yvzgicamcqjwo8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/23oyogchkel32zeg4xshgn3lo.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/621m20bofp2bqzb4404o18fda.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ax449p6v8ma63kyqzns8mikau.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7ztg26txo01teyht7zxsz2bu4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d2129t2epn8wx2jb8h26zkrfp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2wlekby0xk6zhtmd4t7nd98bx.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/88fj7onqpj5u94f6hhg8tl4d4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4qw3dji8zjdkpv108dahyxzy5.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/55uefbtllirmpn5vhdm3o5uw4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/60urwl4wnjybgo572hhei49ey.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/78dhoj9q22mb7jowad5wrtfap.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/big43p5vybh0s4yya3pw878e1.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7i50obz41ilibdpsv6viul96.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6pqwpsddpcosgaftjb02oar6w.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7epg852jrjo5o0d3xmlu1ks68.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9tlks720sshuxxus2xz2bue8o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/82kmc6rwi4tgw6nwv9jubrez7.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/8mh4ia1hpkmssbu6o0fuhdixv.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/44xo56gbxsa29p9r28k57652k.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9aqb8im96nrswcc70gsnp1uva.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/uhrkgycbb3zwgll68mxt1x1p.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/44xo56gbxsa29p9r28k57652k.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c2ufafm5cwerl898qr25fh9o5.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/2kmx7de04n24heibgf50enqeb.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9ljdg5detw698fvw65qmjruon.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/78dhoj9q22mb7jowad5wrtfap.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d09upviycvo6n2ciqz6omivcg.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/c8tvj64npx4ardfia34wg436o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/88fj7onqpj5u94f6hhg8tl4d4.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/3vy6bjpl5m1qm686onoimydut.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6et92wie8msmtzf3lfncox07g.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/9o862s88c4mxb34li7gf73ifs.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1azxr5cwfq209wbd1om4noa18.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/btha5xgv6hsmyqostrk2gim06.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/44xo56gbxsa29p9r28k57652k.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/82kmc6rwi4tgw6nwv9jubrez7.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/e0lac9drygjsyrlg9uclka4du.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/d2129t2epn8wx2jb8h26zkrfp.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/bip9ztjpvd1zz2t908ucuhdfs.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8mh4ia1hpkmssbu6o0fuhdixv.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/60urwl4wnjybgo572hhei49ey.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/degg3nf31ruohcanosx040g35.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8kdeum49ch41q6oantqnr22ad.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5p5kw8dtwkqqgwovpx42j8lt0.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/202shj7bryakno213on73p49a.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/dv6xk3w8hyoz0gp12cxthv69o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/dke3qud9syvxcu0jh2psarkcn.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8rh65bkhc2gehffql5okd5uu0.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9ba4b5j8chpfl9bo1zvt3nhad.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/a56xswyvt99xxn02gwcfn7oeh.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ao8it21bki0q4i2zmdp4mg6t6.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/cwz1xmvp8q53z69o1n8noweec.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/ccmslftsq330w8vfrbxtlu784.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8mh4ia1hpkmssbu6o0fuhdixv.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cg24f5dkpoe9rz29fktok68cn.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1np8rlqthcuxxvdg6juwq8o9m.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/g442ao70emet2ir8hamvb7l9.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6yxfrrsmev9hzgx9joiru3a9m.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/8kdeum49ch41q6oantqnr22ad.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/7ziov3z8dr6uygy0aqwxbe3v4.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/9ba4b5j8chpfl9bo1zvt3nhad.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/78dhoj9q22mb7jowad5wrtfap.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/4uzj4s5wj8u5ym874uuil262y.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/b5unbhdmv33heqzltc11mala8.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/1loruwx841ezosdxgwekew04u.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9aqb8im96nrswcc70gsnp1uva.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/odu79n57qn42z6n4bmrofi80.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/big43p5vybh0s4yya3pw878e1.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/9tlks720sshuxxus2xz2bue8o.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/f4miu2wj8qjt0cn49xoe9oefu.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/621m20bofp2bqzb4404o18fda.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/5154fbbzepjqqzdinp6k6gj6k.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/cluashqx6ftxffue44czyag3d.jpg
+False, True
+isItAtrialFibrilationOrSinus
+images/6et92wie8msmtzf3lfncox07g.jpg
+True, False
+isItAtrialFibrilationOrSinus
+images/7ztg26txo01teyht7zxsz2bu4.jpg
+False, True

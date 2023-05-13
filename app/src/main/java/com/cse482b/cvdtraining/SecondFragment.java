@@ -83,11 +83,11 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         // [Answer Options - first one should be the correct one]
         questions = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(
-                new InputStreamReader(requireContext().getAssets().open(questionCategory + ".txt")))) {
+                new InputStreamReader(requireContext().getAssets().open("questions/" + questionCategory + ".txt")))) {
 
-            String mLine;
-            while ((mLine = reader.readLine()) != null) {
-                int resId = getResources().getIdentifier(mLine, "string", requireContext().getPackageName());
+            String questionType;
+            while ((questionType = reader.readLine()) != null) {
+                int resId = getResources().getIdentifier(questionType, "string", requireContext().getPackageName());
                 String questionText = getResources().getString(resId);
                 String imagePath = reader.readLine();
                 String[] answerOptions = reader.readLine().split(", ");
@@ -107,7 +107,7 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         sharedPref = requireContext().getSharedPreferences("com.CDV.training.questions", Context.MODE_PRIVATE);
         editor = sharedPref.edit();
 
-        questionCategory = sharedPref.getString("questionCategory", "defaultQuestions");
+        questionCategory = sharedPref.getString("questionCategory", "isAtrialFibrilationOrSinus");
         currentQuestionIndex = sharedPref.getInt("currentIX" + questionCategory, 0);
 
         loadQuestions();

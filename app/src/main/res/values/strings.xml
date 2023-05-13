@@ -11,6 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="home">Home</string>
 
+    <!-- Questions -->
     <string name="isItArtifactOrArrhythmia">This is not an Arrhythmia. It is an artifact from electrical interference (60 cycles).</string>
     <string name="isItPWave">The highlighted section of the below ECG is a P-Wave.</string>
     <string name="isItQWave">The highlighted section of the below ECG is a Q-Wave.</string>
@@ -22,4 +23,6 @@
     <string name="False">False</string>
     <string name="correct">That is correct!</string>
     <string name="incorrect">Incorrect, please try again</string>
+    <string name="whatIsHeartrate">What is the closest number (bpm) to the heart rate in the below ECG?</string>
+    <string name="isItAtrialFibrilationOrSinus">The below ECG depicts Atrial Fibrillation, not Sinus Rhythm.</string>
 </resources>

@@ -1,0 +1,2475 @@
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+True, False
+isItTWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aS.jpg
+True, False
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+True, False
+isItPWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+True, False
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+True, False
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+True, False
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+True, False
+isItQWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+True, False
+isItQWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+True, False
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+True, False
+isItPWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+True, False
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+True, False
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+True, False
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+True, False
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+True, False
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+True, False
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+True, False
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+True, False
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+True, False
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+True, False
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+True, False
+isItQWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+True, False
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+True, False
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+True, False
+isItPWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+True, False
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+True, False
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+True, False
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+True, False
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+True, False
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+True, False
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+True, False
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aT.jpg
+True, False
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aS.jpg
+True, False
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+True, False
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+True, False
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+True, False
+isItPWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+True, False
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+True, False
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+True, False
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+True, False
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+True, False
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+True, False
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+True, False
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+True, False
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+True, False
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+True, False
+isItQWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+True, False
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+True, False
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+True, False
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+True, False
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+True, False
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+True, False
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+True, False
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+True, False
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+True, False
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+True, False
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+True, False
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+True, False
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+True, False
+isItRWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+True, False
+isItQWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+True, False
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+True, False
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+True, False
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+True, False
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+True, False
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+True, False
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aP.jpg
+True, False
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+True, False
+isItPWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+True, False
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aT.jpg
+True, False
+isItTWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aQ.jpg
+True, False
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+True, False
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+True, False
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+True, False
+isItSWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aR.jpg
+True, False
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+True, False
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+True, False
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+True, False
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+True, False
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+True, False
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aP.jpg
+True, False
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+True, False
+isItQWave
+images/202shj7bryakno213on73p49aQ.jpg
+True, False
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+True, False
+isItSWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+True, False
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+True, False
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+True, False
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+True, False
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+True, False
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+True, False
+isItRWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+True, False
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+True, False
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+True, False
+isItPWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+True, False
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+True, False
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+True, False
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+True, False
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+True, False
+isItQWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+True, False
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+True, False
+isItSWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+True, False
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+True, False
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+True, False
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+True, False
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+True, False
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+True, False
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+True, False
+isItRWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+True, False
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+True, False
+isItQWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+True, False
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+True, False
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+True, False
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+True, False
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+True, False
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+True, False
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+True, False
+isItRWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+True, False
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+True, False
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgP.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aR.jpg
+True, False
+isItQWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+True, False
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+True, False
+isItSWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aP.jpg
+True, False
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+True, False
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aS.jpg
+True, False
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3R.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+True, False
+isItTWave
+images/202shj7bryakno213on73p49aT.jpg
+True, False
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+True, False
+isItSWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+True, False
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItPWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItRWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+True, False
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+True, False
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+True, False
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+True, False
+isItQWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+True, False
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+True, False
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4R.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+True, False
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+True, False
+isItRWave
+images/202shj7bryakno213on73p49aR.jpg
+True, False
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+True, False
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+True, False
+isItSWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItQWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+True, False
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+True, False
+isItTWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+True, False
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aQ.jpg
+True, False
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+True, False
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+True, False
+isItSWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aT.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+True, False
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7R.jpg
+True, False
+isItQWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItQWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+True, False
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItQWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6Q.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+True, False
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItTWave
+images/7ziov3z8dr6uygy0aqwxbe3v4Q.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+True, False
+isItSWave
+images/202shj7bryakno213on73p49aQ.jpg
+False, True
+isItRWave
+images/bnlb110trpqlfkq2co0db10vgT.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327S.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItTWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItPWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gS.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItRWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItPWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+False, True
+isItRWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+True, False
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItTWave
+images/e6gq8w11bq0mwa7d4p1cda8f3P.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+True, False
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8Q.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgQ.jpg
+True, False
+isItRWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327Q.jpg
+False, True
+isItPWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7S.jpg
+True, False
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947S.jpg
+True, False
+isItSWave
+images/btha5xgv6hsmyqostrk2gim06Q.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItSWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+True, False
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItRWave
+images/e6gq8w11bq0mwa7d4p1cda8f3Q.jpg
+False, True
+isItPWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItPWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4S.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItSWave
+images/6wupqr0i99joi5w7u2s5zvgu8T.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06P.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItPWave
+images/6wupqr0i99joi5w7u2s5zvgu8R.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3T.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItPWave
+images/6et92wie8msmtzf3lfncox07gP.jpg
+True, False
+isItPWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7P.jpg
+False, True
+isItQWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+True, False
+isItTWave
+images/bnlb110trpqlfkq2co0db10vgS.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6S.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gT.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8S.jpg
+False, True
+isItQWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItSWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+True, False
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+True, False
+isItSWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItTWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06S.jpg
+False, True
+isItQWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+False, True
+isItRWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+True, False
+isItRWave
+images/4fftj5t6p2b0x8h1t4a201947R.jpg
+True, False
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aP.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947Q.jpg
+False, True
+isItTWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+True, False
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4T.jpg
+False, True
+isItQWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItSWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItSWave
+images/202shj7bryakno213on73p49aR.jpg
+False, True
+isItTWave
+images/6et92wie8msmtzf3lfncox07gR.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6P.jpg
+False, True
+isItTWave
+images/5zx3ntga1fj3u0182b66np327P.jpg
+False, True
+isItTWave
+images/202shj7bryakno213on73p49aS.jpg
+False, True
+isItPWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItSWave
+images/bnlb110trpqlfkq2co0db10vgR.jpg
+False, True
+isItRWave
+images/ao8it21bki0q4i2zmdp4mg6t6R.jpg
+True, False
+isItSWave
+images/82kmc6rwi4tgw6nwv9jubrez7Q.jpg
+False, True
+isItSWave
+images/6et92wie8msmtzf3lfncox07gQ.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947P.jpg
+False, True
+isItQWave
+images/5zx3ntga1fj3u0182b66np327R.jpg
+False, True
+isItSWave
+images/4fftj5t6p2b0x8h1t4a201947T.jpg
+False, True
+isItRWave
+images/7ziov3z8dr6uygy0aqwxbe3v4P.jpg
+False, True
+isItTWave
+images/ao8it21bki0q4i2zmdp4mg6t6T.jpg
+True, False
+isItPWave
+images/82kmc6rwi4tgw6nwv9jubrez7T.jpg
+False, True
+isItQWave
+images/e6gq8w11bq0mwa7d4p1cda8f3S.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06R.jpg
+False, True
+isItRWave
+images/6wupqr0i99joi5w7u2s5zvgu8P.jpg
+False, True
+isItRWave
+images/5zx3ntga1fj3u0182b66np327T.jpg
+False, True
+isItQWave
+images/btha5xgv6hsmyqostrk2gim06T.jpg
+False, True
