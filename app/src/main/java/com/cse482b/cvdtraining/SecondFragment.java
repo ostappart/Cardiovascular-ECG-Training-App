@@ -224,9 +224,9 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         int toastMessageId;
 
         if (questions.get(currentQuestionIndex).isCorrect(userAnswer)) {
-            toastMessageId = R.string.True; // TODO: actual message of whether user was correct
+            toastMessageId = R.string.correct;
         } else {
-            toastMessageId = R.string.False;
+            toastMessageId = R.string.incorrect;
         }
 
         Toast.makeText(getContext(), toastMessageId, Toast.LENGTH_SHORT).show();

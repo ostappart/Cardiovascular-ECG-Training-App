@@ -9,8 +9,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="True">True</string>
-    <string name="False">False</string>
     <string name="home">Home</string>
 
     <string name="isItArtifactOrArrhythmia">This is not an Arrhythmia. It is an artifact from electrical interference (60 cycles).</string>
@@ -20,4 +18,8 @@
     <string name="isItSWave">The highlighted section of the below ECG is a S-Wave.</string>
     <string name="isItTWave">The highlighted section of the below ECG is a T-Wave.</string>
     <string name="noMoreQuestions">No More Questions of This Category :(</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="correct">That is correct!</string>
+    <string name="incorrect">Incorrect, please try again</string>
 </resources>
