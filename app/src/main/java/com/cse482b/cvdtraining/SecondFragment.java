@@ -1,5 +1,7 @@
 package com.cse482b.cvdtraining;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -47,8 +49,10 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         }
     }
 
+    /** Navigation */
     private FragmentSecondBinding binding;
 
+    /** UI Elements */
     private Button falseButton;
     private Button trueButton;
     private ImageButton nextButton;
@@ -56,8 +60,14 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
     private ImageView Image;
     private TextView questionTextView;
 
+    /** SharedPreferences for saved data */
+    SharedPreferences sharedPref;
+    SharedPreferences.Editor editor;
+
+    /** Question Data */
+    private String questionCategory;
     private ArrayList<Question> questions;
-    private int currentQuestionIndex = 0; // TODO: save visited question scores and use to recommend questions
+    private int currentQuestionIndex = 0;
 
     private void loadQuestions() {
         // Expected format (3 lines per question):
@@ -66,7 +76,7 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         // [Answer Options - first one should be the correct one]
         questions = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(
-                new InputStreamReader(requireContext().getAssets().open("questions.txt")))) {
+                new InputStreamReader(requireContext().getAssets().open(questionCategory + ".txt")))) {
 
             String mLine;
             while ((mLine = reader.readLine()) != null) {
@@ -87,11 +97,24 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
             Bundle savedInstanceState
     ) {
 
+        sharedPref = requireContext().getSharedPreferences("com.CDV.training.questions", Context.MODE_PRIVATE);
+        editor = sharedPref.edit();
+
+        questionCategory = sharedPref.getString("questionCategory", "defaultQuestions");
+        currentQuestionIndex = sharedPref.getInt("currentIX" + questionCategory, 0);
+
         loadQuestions();
 
         binding = FragmentSecondBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        updateQuestion();
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
@@ -137,19 +160,9 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
             case R.id.next_button:
                 if (currentQuestionIndex < questions.size()) {
                     currentQuestionIndex = currentQuestionIndex + 1;
-                    if (currentQuestionIndex == questions.size()) {
-                        questionTextView.setText("No More Questions :(");
-                        nextButton.setVisibility(
-                                View.INVISIBLE);
-                        prevButton.setVisibility(
-                                View.INVISIBLE);
-                        trueButton.setVisibility(
-                                View.INVISIBLE);
-                        falseButton.setVisibility(
-                                View.INVISIBLE);
-                    } else {
-                        updateQuestion();
-                    }
+                    updateQuestion();
+                    editor.putInt("currentIX" + questionCategory, currentQuestionIndex);
+                    editor.apply();
                 }
 
                 break;
@@ -157,13 +170,25 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
                 if (currentQuestionIndex > 0) {
                     currentQuestionIndex--;
                     updateQuestion();
+                    editor.putInt("currentIX" + questionCategory, currentQuestionIndex);
+                    editor.apply();
                 }
+                break;
         }
     }
 
     private void updateQuestion() {
         // TODO: add question types
         Log.d("SecondFragment", "updateQuestion: " + currentQuestionIndex);
+
+        if (currentQuestionIndex == questions.size()) {
+            questionTextView.setText(R.string.noMoreQuestions);
+            nextButton.setVisibility(View.INVISIBLE);
+            prevButton.setVisibility(View.INVISIBLE);
+            trueButton.setVisibility(View.INVISIBLE);
+            falseButton.setVisibility(View.INVISIBLE);
+            return;
+        }
 
         Question current = questions.get(currentQuestionIndex);
 

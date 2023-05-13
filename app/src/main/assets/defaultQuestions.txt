@@ -5,14 +5,14 @@ isItPWave
 images/PWave.png
 True, False
 isItQWave
-images/QWave.png
+images/PWave.png
 False, True
 isItRWave
-images/RWave.png
+images/PWave.png
 False, True
 isItSWave
-images/SWave.png
+images/PWave.png
 False, True
 isItTWave
-images/TWave.png
+images/PWave.png
 False, True

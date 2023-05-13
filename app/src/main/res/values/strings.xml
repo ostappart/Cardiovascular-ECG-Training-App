@@ -19,4 +19,5 @@
     <string name="isItRWave">The highlighted section of the below ECG is a R-Wave.</string>
     <string name="isItSWave">The highlighted section of the below ECG is a S-Wave.</string>
     <string name="isItTWave">The highlighted section of the below ECG is a T-Wave.</string>
+    <string name="noMoreQuestions">No More Questions of This Category :(</string>
 </resources>
