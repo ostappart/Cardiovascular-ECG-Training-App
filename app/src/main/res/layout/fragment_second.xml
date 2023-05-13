@@ -12,9 +12,10 @@
     <!--ImageView used for showing pictures along with questions-->
     <ImageView
         android:id="@+id/question_image"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:src="@drawable/ic_launcher_background"
-        android:layout_height="wrap_content"/>
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
 
     <!--TextView used for showing questions on screen-->
     <TextView
