@@ -90,20 +90,20 @@
             android:padding="@dimen/_15ssp">
 
             <!-- things to scroll -->
-<!--            <TextView-->
-<!--                android:id="@+id/zxcv"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:textSize="@dimen/_15ssp"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:text="But in principle, a Trump interview was a good idea because it’s never a mistake for the press to confront newsmakers, even if the newsmaker lies about the integrity of the 2020 election, which Trump did. Even if he mocks the justice system because it has held against him, which Trump did. Even if he uses the rhetorical devises of ad hominem, ad populum, ad baculum to savage his foes, as Trump did. Even if he insults the interviewer, which Trump did (“You’re a nasty person,” he said to Collins). Even if he refuses to answer simple questions about his stand on abortion, which Trump repeatedly did. And even if he offers his self-serving hallucinations about the events of January 6 as the truth, which Trump did."/>-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/zxcv"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:textSize="@dimen/_15ssp"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:text="But in principle, a Trump interview was a good idea because it’s never a mistake for the press to confront newsmakers, even if the newsmaker lies about the integrity of the 2020 election, which Trump did. Even if he mocks the justice system because it has held against him, which Trump did. Even if he uses the rhetorical devises of ad hominem, ad populum, ad baculum to savage his foes, as Trump did. Even if he insults the interviewer, which Trump did (“You’re a nasty person,” he said to Collins). Even if he refuses to answer simple questions about his stand on abortion, which Trump repeatedly did. And even if he offers his self-serving hallucinations about the events of January 6 as the truth, which Trump did."/>-->
 
-<!--            <ImageView-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:adjustViewBounds="true"-->
-<!--                android:src="@drawable/cvd_welcome_bg"-->
-<!--                android:paddingVertical="@dimen/_20ssp"/>-->
+            <!--            <ImageView-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:adjustViewBounds="true"-->
+            <!--                android:src="@drawable/cvd_welcome_bg"-->
+            <!--                android:paddingVertical="@dimen/_20ssp"/>-->
 
         </LinearLayout>
     </ScrollView>

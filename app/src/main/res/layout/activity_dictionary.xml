@@ -73,26 +73,26 @@
         app:layout_constraintTop_toTopOf="@+id/top_guideline"
         app:layout_constraintBottom_toBottomOf="@+id/scroll_bottom_guideline"/>
 
-<!--    <ScrollView-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0dp"-->
-<!--        android:fillViewport="true"-->
-<!--        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"-->
-<!--        app:layout_constraintRight_toLeftOf="@id/right_guideline"-->
-<!--        app:layout_constraintTop_toTopOf="@+id/whitebg"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/scroll_bottom_guideline">-->
+    <!--    <ScrollView-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:fillViewport="true"-->
+    <!--        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"-->
+    <!--        app:layout_constraintRight_toLeftOf="@id/right_guideline"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/whitebg"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/scroll_bottom_guideline">-->
 
-<!--        <LinearLayout-->
-<!--            android:id="@+id/dict_layout_view"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="vertical"-->
-<!--            android:padding="@dimen/_15ssp">-->
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/dict_layout_view"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="@dimen/_15ssp">-->
 
-<!--            &lt;!&ndash; things to scroll &ndash;&gt;-->
+    <!--            &lt;!&ndash; things to scroll &ndash;&gt;-->
 
-<!--        </LinearLayout>-->
-<!--    </ScrollView>-->
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
