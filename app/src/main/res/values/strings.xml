@@ -28,6 +28,8 @@
     <string name="noMoreQuestions">No More Questions of This Category :(</string>
     <string name="True">True</string>
     <string name="False">False</string>
+    <string name="Next">Next</string>
+    <string name="Previous">Previous</string>
     <string name="correct">That is correct!</string>
     <string name="incorrect">Incorrect, please try again</string>
     <string name="whatIsHeartrate">What is the closest number (bpm) to the heart rate in the below ECG?</string>

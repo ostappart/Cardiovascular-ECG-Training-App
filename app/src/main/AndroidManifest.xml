@@ -48,7 +48,7 @@
             android:noHistory="true">
         </activity>
         <activity
-            android:name=".HTMLActivity"
+            android:name=".PracticeActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:noHistory="true">

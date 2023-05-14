@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/angle_left_solid"
             android:backgroundTint="#DFD2D1"
-            android:text="@string/previous" />
+            android:text="@string/Previous" />
 
         <!--NextButton-->
         <ImageButton
@@ -115,7 +115,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#DFD2D1"
             android:src="@drawable/angle_right_solid"
-            android:text="@string/next" />
+            android:text="@string/Next" />
 
     </LinearLayout>
 
