@@ -2,6 +2,7 @@ package com.cse482b.cvdtraining;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -21,7 +22,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -125,6 +125,22 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         bottomRight.setOnClickListener(this);
         nextButton.setOnClickListener(this);
         prevButton.setOnClickListener(this);
+
+        findViewById(R.id.home_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PracticeActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.help_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PracticeActivity.this, SettingsActivity.class);
+                startActivity(intent);
+            }
+        });
 
         updateQuestion();
     }
