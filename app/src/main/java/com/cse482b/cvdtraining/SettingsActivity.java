@@ -28,7 +28,7 @@ public class SettingsActivity extends AppCompatActivity {
                 "About"
         );
         List<String> activityList = Arrays.asList(
-                "",
+                "DictionaryActivity",
                 "ResetModuleDialogActivity",
                 ""
         );

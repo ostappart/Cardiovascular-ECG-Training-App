@@ -3,9 +3,7 @@ package com.cse482b.cvdtraining;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -21,7 +19,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -42,16 +39,16 @@ public class LessonActivity extends AppCompatActivity {
         Button next = findViewById(R.id.next_button);
 
         String moduleName = getIntent().getStringExtra("module_name");
-        List<String> moduleFragments;
+        String[] moduleFragments;
         switch (moduleName) {
             case "Module 1 Name":
-                moduleFragments = Arrays.asList("example1", "example2");
+                moduleFragments = new String[]{"example1", "example2"};
                 break;
             default:
                 return;
         }
 
-        List<JSONObject> jsonObjects = parseJSONList(moduleFragments);
+        List<JSONObject> jsonObjects = GlobalMethods.parseJSONList(this, moduleFragments, "raw");
         addToScrollView(containerLayout, jsonObjects.get(0));
 
         home.setOnClickListener(new View.OnClickListener() {

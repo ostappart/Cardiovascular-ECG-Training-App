@@ -53,6 +53,12 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:noHistory="true">
         </activity>
+        <activity
+            android:name=".DictionaryActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:noHistory="true">
+        </activity>
 
 
         <!-- Demos -->

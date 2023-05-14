@@ -1,0 +1,22 @@
+[
+  {
+    "word": "Algorithm",
+    "definition": "A step-by-step procedure for solving a computational problem."
+  },
+  {
+    "word": "Variable",
+    "definition": "A named storage location that can hold a value which can be changed during program execution."
+  },
+  {
+    "word": "Function",
+    "definition": "A named sequence of statements that performs a specific task."
+  },
+  {
+    "word": "Array",
+    "definition": "A data structure that stores a fixed-size sequence of elements of the same type."
+  },
+  {
+    "word": "Loop",
+    "definition": "A programming construct that repeats a set of instructions until a specific condition is met."
+  }
+]
