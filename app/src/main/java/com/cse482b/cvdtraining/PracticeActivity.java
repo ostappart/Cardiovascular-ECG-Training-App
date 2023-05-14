@@ -21,11 +21,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class PracticeActivity extends AppCompatActivity implements View.OnClickListener {
-    private static class Question {
+    private class Question {
         public String text;
         public String imagePath;
         public int correctIndex;
@@ -34,9 +35,10 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         Question(String text, String imagePath, String[] answerOptions) {
             this.text = text;
             this.imagePath = imagePath;
-            if (answerOptions.length == 2) {
-                this.correctIndex = 0;
-                this.answerOptions = answerOptions;
+            if (answerOptions.length == 2 && (answerOptions[0].equals("True") || answerOptions[0].equals("False"))) {
+                // translate and order options for true/false questions:
+                this.correctIndex = (answerOptions[0].equals("True")) ? 0 : 1;
+                this.answerOptions = new String[] { getString(R.string.True), getString(R.string.False) };
             } else {
                 String correct = answerOptions[0];
                 List<String> options = Arrays.asList(answerOptions);
@@ -200,9 +202,13 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         questionTextView.setText(current.text);
 
         if (current.answerOptions.length > 0) topLeft.setText(current.answerOptions[0]);
+        else topLeft.setVisibility(View.INVISIBLE);
         if (current.answerOptions.length > 1) topRight.setText(current.answerOptions[1]);
+        else topRight.setVisibility(View.INVISIBLE);
         if (current.answerOptions.length > 2) bottomLeft.setText(current.answerOptions[2]);
+        else bottomLeft.setVisibility(View.INVISIBLE);
         if (current.answerOptions.length > 3) bottomRight.setText(current.answerOptions[3]);
+        else bottomRight.setVisibility(View.INVISIBLE);
 
         try {
             InputStream ims = getAssets().open(current.imagePath);
