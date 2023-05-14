@@ -13,11 +13,11 @@
 
     <!-- Questions -->
     <string name="isItArtifactOrArrhythmia">This is not an Arrhythmia. It is an artifact from electrical interference (60 cycles).</string>
-    <string name="isItPWave">The highlighted section of the below ECG is a P-Wave.</string>
-    <string name="isItQWave">The highlighted section of the below ECG is a Q-Wave.</string>
-    <string name="isItRWave">The highlighted section of the below ECG is a R-Wave.</string>
-    <string name="isItSWave">The highlighted section of the below ECG is a S-Wave.</string>
-    <string name="isItTWave">The highlighted section of the below ECG is a T-Wave.</string>
+    <string name="isItPWave">The highlighted section of the above ECG is a P-Wave.</string>
+    <string name="isItQWave">The highlighted section of the above ECG is a Q-Wave.</string>
+    <string name="isItRWave">The highlighted section of the above ECG is a R-Wave.</string>
+    <string name="isItSWave">The highlighted section of the above ECG is a S-Wave.</string>
+    <string name="isItTWave">The highlighted section of the above ECG is a T-Wave.</string>
     <string name="noMoreQuestions">No More Questions of This Category :(</string>
     <string name="True">True</string>
     <string name="False">False</string>

@@ -77,6 +77,8 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
     private int currentQuestionIndex = 0;
 
     private void loadQuestions() {
+        questionCategory = sharedPref.getString("questionCategory", "identifyPeaksSinus");
+        currentQuestionIndex = sharedPref.getInt("currentIX" + questionCategory, 0);
         // Expected format (3 lines per question):
         // [Question Type]
         // [Image Path]
@@ -107,9 +109,6 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
         sharedPref = requireContext().getSharedPreferences("com.CDV.training.questions", Context.MODE_PRIVATE);
         editor = sharedPref.edit();
 
-        questionCategory = sharedPref.getString("questionCategory", "isAtrialFibrilationOrSinus");
-        currentQuestionIndex = sharedPref.getInt("currentIX" + questionCategory, 0);
-
         loadQuestions();
 
         binding = FragmentSecondBinding.inflate(inflater, container, false);
@@ -120,7 +119,7 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onResume() {
         super.onResume();
-
+        loadQuestions();
         updateQuestion();
     }
 
