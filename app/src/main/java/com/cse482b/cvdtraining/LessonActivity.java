@@ -85,7 +85,7 @@ public class LessonActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (contentPage + 1 >= jsonObjects.size()) {
                     // practice activity
-                    Intent intent = new Intent(LessonActivity.this, SettingsActivity.class);
+                    Intent intent = new Intent(LessonActivity.this, PracticeActivity.class);
                     startActivity(intent);
                     return;
                 }
