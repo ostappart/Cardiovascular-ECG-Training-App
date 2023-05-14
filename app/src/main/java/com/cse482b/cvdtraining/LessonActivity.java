@@ -1,6 +1,8 @@
 package com.cse482b.cvdtraining;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -27,6 +29,17 @@ public class LessonActivity extends AppCompatActivity {
 
     int contentPage = 0;
 
+    /**
+     * Sets the category of questions that will be drawn from by the PracticeActivity
+     * @param category the name of the file in assets/questions without the path and file extension.
+     */
+    private void setPracticeQuestionCategory(String category) {
+        SharedPreferences sharedPref = getSharedPreferences("com.CDV.training.questions", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putString("questionCategory", category);
+        editor.apply();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +56,7 @@ public class LessonActivity extends AppCompatActivity {
         switch (moduleName) {
             case "Module 1 Name":
                 moduleFragments = new String[]{"example1", "example2"};
+                setPracticeQuestionCategory("heartbeatSinus");
                 break;
             default:
                 return;
