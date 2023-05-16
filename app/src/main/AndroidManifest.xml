@@ -14,7 +14,7 @@
         android:theme="@style/Theme.CVDTraining"
         tools:targetApi="31" >
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".LaunchActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:noHistory="true">
@@ -23,6 +23,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:noHistory="true">
         </activity>
         <activity
             android:name=".HomeActivity"

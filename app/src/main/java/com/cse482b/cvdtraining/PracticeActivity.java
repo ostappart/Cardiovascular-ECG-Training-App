@@ -8,6 +8,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -126,7 +127,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         nextButton.setOnClickListener(this);
         prevButton.setOnClickListener(this);
 
-        findViewById(R.id.home_button).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.practice_home_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(PracticeActivity.this, HomeActivity.class);
@@ -134,7 +135,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
             }
         });
 
-        findViewById(R.id.help_button).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.practice_help_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(PracticeActivity.this, SettingsActivity.class);
