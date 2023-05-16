@@ -1,10 +1,12 @@
 package com.cse482b.cvdtraining;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -25,9 +27,21 @@ import java.util.Iterator;
 import java.util.List;
 
 
-public class LessonActivity extends AppCompatActivity {
+public class LessonActivity extends AppCompatActivity implements View.OnClickListener {
 
-    int contentPage = 0;
+    private int contentPage = 0;
+
+    /** UI Elements */
+    private ImageView homeButton;
+    private Button helpButton;
+    private LinearLayout containerLayout;
+    private Button backButton;
+    private Button nextButton;
+
+    /** Module data */
+    List<List<JSONObject>> jsonObjects;
+
+
 
     /**
      * Sets the category of questions that will be drawn from by the PracticeActivity
@@ -45,11 +59,18 @@ public class LessonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson);
 
-        ImageView home = findViewById(R.id.lesson_home_button);
-        Button help = findViewById(R.id.lesson_help_button);
-        LinearLayout containerLayout = findViewById(R.id.lesson_layout_view);
-        Button back = findViewById(R.id.back_button);
-        Button next = findViewById(R.id.next_button);
+        homeButton = findViewById(R.id.lesson_home_button);
+        helpButton = findViewById(R.id.lesson_help_button);
+        containerLayout = findViewById(R.id.lesson_layout_view);
+        backButton = findViewById(R.id.back_button);
+        nextButton = findViewById(R.id.next_button);
+        jsonObjects = new ArrayList<>();
+
+        homeButton.setOnClickListener(this);
+        helpButton.setOnClickListener(this);
+        containerLayout.setOnClickListener(this);
+        backButton.setOnClickListener(this);
+        nextButton.setOnClickListener(this);
 
         String moduleName = getIntent().getStringExtra("module_name");
         String[] moduleFragments;
@@ -62,81 +83,51 @@ public class LessonActivity extends AppCompatActivity {
                 return;
         }
 
-        List<JSONObject> jsonObjects = GlobalMethods.parseJSONList(this, moduleFragments, "raw");
-        addToScrollView(containerLayout, jsonObjects.get(0));
+        for (String filename : moduleFragments)  {
+            List<JSONObject> jsonObject = GlobalMethods.parseJSONList(this, filename, "raw");
+            jsonObjects.add(jsonObject);
+        }
+        addBatchToScrollView(containerLayout, jsonObjects.get(0));
+    }
 
-        home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+    @SuppressLint("NonConstantResourceId")
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.lesson_home_button:
                 Intent intent = new Intent(LessonActivity.this, HomeActivity.class);
                 startActivity(intent);
-            }
-        });
-
-        help.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(LessonActivity.this, SettingsActivity.class);
+                break;
+            case R.id.lesson_help_button:
+                intent = new Intent(LessonActivity.this, SettingsActivity.class);
                 startActivity(intent);
-            }
-        });
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+                break;
+            case R.id.back_button:
                 if (contentPage == 0) return;
-                if (next.getText() == getResources().getText(R.string.practice) && contentPage == jsonObjects.size() - 1) {
-                    next.setText(getResources().getText(R.string.next));
-                }
+                if (nextButton.getText() == getResources().getText(R.string.practice) && contentPage == jsonObjects.size() - 1)
+                    nextButton.setText(getResources().getText(R.string.next));
                 contentPage--;
                 containerLayout.removeAllViews();
-                addToScrollView(containerLayout, jsonObjects.get(contentPage));
-            }
-        });
-
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+                addBatchToScrollView(containerLayout, jsonObjects.get(contentPage));
+                break;
+            case R.id.next_button:
                 if (contentPage + 1 >= jsonObjects.size()) {
-                    // practice activity
-                    Intent intent = new Intent(LessonActivity.this, PracticeActivity.class);
+                    intent = new Intent(LessonActivity.this, PracticeActivity.class);
                     startActivity(intent);
                     return;
                 }
                 contentPage++;
                 containerLayout.removeAllViews();
-                addToScrollView(containerLayout, jsonObjects.get(contentPage));
-                if (contentPage == jsonObjects.size() - 1) {
-                    next.setText(getResources().getText(R.string.practice));
-
-                }
-            }
-        });
+                addBatchToScrollView(containerLayout, jsonObjects.get(contentPage));
+                if (contentPage == jsonObjects.size() - 1)
+                    nextButton.setText(getResources().getText(R.string.practice));
+                break;
+        }
     }
 
-    // moduleFragments: list of JSON filenames (stored in R.raw)
-    // order of elements reflect order of display
-    List<JSONObject> parseJSONList(List<String> moduleFragments) {
-        List<JSONObject> jsonObjects = new ArrayList<>();
-
-        for (String json : moduleFragments) {
-            int resourceId = getResources().getIdentifier(json, "raw", getPackageName());
-            InputStream inputStream = getResources().openRawResource(resourceId);
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
-            StringBuilder jsonString = new StringBuilder();
-            String line;
-            try {
-                while ((line = bufferedReader.readLine()) != null) {
-                    jsonString.append(line);
-                }
-                bufferedReader.close();
-                JSONObject jsonObject = new JSONObject(jsonString.toString());
-                jsonObjects.add(jsonObject);
-            } catch (IOException | JSONException e) {
-                e.printStackTrace();
-            }
-        }
-        return jsonObjects;
+    void addBatchToScrollView(LinearLayout containerLayout, List<JSONObject> contentFragments) {
+        for (JSONObject fragment : contentFragments)
+            addToScrollView(containerLayout, fragment);
     }
 
     void addToScrollView(LinearLayout containerLayout, JSONObject contentFragment) {

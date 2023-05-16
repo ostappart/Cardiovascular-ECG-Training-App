@@ -67,6 +67,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     private ImageButton prevButton;
     private ImageView Image;
     private TextView questionTextView;
+    private ImageButton homeButton;
+    private Button helpButton;
 
     /** SharedPreferences for saved data */
     SharedPreferences sharedPref;
@@ -117,6 +119,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         bottomRight = findViewById(R.id.buttonRightBottom);
         nextButton = findViewById(R.id.next_button);
         prevButton = findViewById(R.id.prev_button);
+        homeButton = findViewById(R.id.practice_home_button);
+        helpButton = findViewById(R.id.practice_help_button);
         questionTextView = findViewById(R.id.question_text);
         Image = findViewById(R.id.question_image);
 
@@ -126,22 +130,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         bottomRight.setOnClickListener(this);
         nextButton.setOnClickListener(this);
         prevButton.setOnClickListener(this);
-
-        findViewById(R.id.practice_home_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PracticeActivity.this, HomeActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        findViewById(R.id.practice_help_button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PracticeActivity.this, SettingsActivity.class);
-                startActivity(intent);
-            }
-        });
+        homeButton.setOnClickListener(this);
+        helpButton.setOnClickListener(this);
 
         updateQuestion();
     }
@@ -184,6 +174,14 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
                     editor.putInt("currentIX" + questionCategory, currentQuestionIndex);
                     editor.apply();
                 }
+                break;
+            case R.id.practice_home_button:
+                Intent intent = new Intent(PracticeActivity.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.practice_help_button:
+                intent = new Intent(PracticeActivity.this, SettingsActivity.class);
+                startActivity(intent);
                 break;
         }
     }

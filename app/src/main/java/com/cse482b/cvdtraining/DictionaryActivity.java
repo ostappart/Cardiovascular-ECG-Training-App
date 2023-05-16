@@ -25,7 +25,7 @@ public class DictionaryActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ItemAdapter itemAdapter;
     private RecyclerView.LayoutManager layoutManager;
-    private String[] jsonFilename = {"dictionary"};
+    private String jsonFilename = "dictionary";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,9 +42,7 @@ public class DictionaryActivity extends AppCompatActivity {
         searchView.clearFocus();
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
+            public boolean onQueryTextSubmit(String query) { return false; }
 
             @Override
             public boolean onQueryTextChange(String newText) {
@@ -90,11 +88,9 @@ public class DictionaryActivity extends AppCompatActivity {
 
     private void filterList(String text) {
         List<String[]> filteredList = new ArrayList<>();
-        for (String[] item : itemList) {
-            if (item[0].toLowerCase().contains(text.toLowerCase())) {
+        for (String[] item : itemList)
+            if (item[0].toLowerCase().contains(text.toLowerCase()))
                 filteredList.add(item);
-            }
-        }
 
         if (!filteredList.isEmpty())
             itemAdapter.setFilteredList(filteredList);

@@ -39,10 +39,9 @@ public class GlobalMethods extends AppCompatActivity {
         return keys;
     }
 
-    public static List<JSONObject> parseJSONList(Context context, String[] filenames, String defType) {
+    public static List<JSONObject> parseJSONList(Context context, String json, String defType) {
         List<JSONObject> jsonObjects = new ArrayList<>();
 
-        for (String json : filenames) {
             int resourceId = context.getResources().getIdentifier(json, defType, context.getPackageName());
             InputStream inputStream = context.getResources().openRawResource(resourceId);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
@@ -69,7 +68,6 @@ public class GlobalMethods extends AppCompatActivity {
             } catch (IOException | JSONException e) {
                 e.printStackTrace();
             }
-        }
         return jsonObjects;
     }
 }
