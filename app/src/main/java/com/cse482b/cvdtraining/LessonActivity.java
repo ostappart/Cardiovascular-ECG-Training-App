@@ -40,19 +40,8 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
 
     /** Module data */
     List<List<JSONObject>> jsonObjects;
-
-
-
-    /**
-     * Sets the category of questions that will be drawn from by the PracticeActivity
-     * @param category the name of the file in assets/questions without the path and file extension.
-     */
-    private void setPracticeQuestionCategory(String category) {
-        SharedPreferences sharedPref = getSharedPreferences("com.CDV.training.questions", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putString("questionCategory", category);
-        editor.apply();
-    }
+    private String moduleName;
+    private String moduleNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,16 +61,9 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
         backButton.setOnClickListener(this);
         nextButton.setOnClickListener(this);
 
-        String moduleName = getIntent().getStringExtra("module_name");
-        String[] moduleFragments;
-        switch (moduleName) {
-            case "Module 1 Name":
-                moduleFragments = new String[]{"example1", "example2"};
-                setPracticeQuestionCategory("heartbeatSinus");
-                break;
-            default:
-                return;
-        }
+        moduleName = getIntent().getStringExtra("module_name");
+        moduleNext = getIntent().getStringExtra("module_unlock");
+        String[] moduleFragments = getIntent().getStringExtra("module_fragments").split("\\+");
 
         for (String filename : moduleFragments)  {
             List<JSONObject> jsonObject = GlobalMethods.parseJSONList(this, filename, "raw");
@@ -103,7 +85,11 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
                 startActivity(intent);
                 break;
             case R.id.back_button:
-                if (contentPage == 0) return;
+                if (contentPage == 0) {
+                    Intent home = new Intent(LessonActivity.this, HomeActivity.class);
+                    startActivity(home);
+                    return;
+                }
                 if (nextButton.getText() == getResources().getText(R.string.practice) && contentPage == jsonObjects.size() - 1)
                     nextButton.setText(getResources().getText(R.string.next));
                 contentPage--;
@@ -119,8 +105,11 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
                 contentPage++;
                 containerLayout.removeAllViews();
                 addBatchToScrollView(containerLayout, jsonObjects.get(contentPage));
-                if (contentPage == jsonObjects.size() - 1)
+                if (contentPage == jsonObjects.size() - 1) {
                     nextButton.setText(getResources().getText(R.string.practice));
+                    GlobalMethods.setPreference(this, moduleName + "-completion", "COMPLETED");
+                    GlobalMethods.setPreference(this, moduleNext + "-completion", "UNLOCKED");
+                }
                 break;
         }
     }

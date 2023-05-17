@@ -1,0 +1,10 @@
+[
+  {"name": "Intro"},
+  {"fragments": "example1+example2"},
+  {"questions": "defaultQuestions"},
+  {"activity": "LessonActivity"},
+  {"name": "Module 2!!!"},
+  {"fragments": "example2+example1"},
+  {"questions": "identifyPeaksSinus"},
+  {"activity": "LessonActivity"}
+]

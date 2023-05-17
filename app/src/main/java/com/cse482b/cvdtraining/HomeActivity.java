@@ -13,7 +13,11 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.Arrays;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -42,29 +46,24 @@ public class HomeActivity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.module_list);
         Button settings = findViewById(R.id.help_button);
-        List<String> itemList = Arrays.asList(
-                "Module 1 Name",
-                "Module 2 Name",
-                "Module 3 Name",
-                "Module 4 Name",
-                "Module 5 Name",
-                "Module 6 Name",
-                "Module 7 Name",
-                "Module 8 Name"
-        );
+        List<JSONObject> moduleJSONs = GlobalMethods.parseJSONList(this, "modules", "raw");
+        List<String> itemList = new ArrayList<>(moduleJSONs.size() / 4);
+        List<String> activityList = new ArrayList<>(moduleJSONs.size() / 4);
+        List<String> fragmentList = new ArrayList<>(moduleJSONs.size() / 4);
+        List<String> questionCategoryList = new ArrayList<>(moduleJSONs.size() / 4);
+        Iterator<JSONObject> it = moduleJSONs.iterator();
+        try {
+            while (it.hasNext()) {
+                itemList.add(it.next().getString("name"));
+                fragmentList.add(it.next().getString("fragments"));
+                questionCategoryList.add(it.next().getString("questions"));
+                activityList.add(it.next().getString("activity"));
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
-        List<String> activityList = Arrays.asList(
-                "LessonActivity",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-        );
-
-        ListAdapter adapter = new ListAdapter(this, itemList, activityList, true);
+        ListAdapter adapter = new ListAdapter(this, itemList, activityList, fragmentList, questionCategoryList);
         listView.setAdapter(adapter);
 
         settings.setOnClickListener(new View.OnClickListener() {

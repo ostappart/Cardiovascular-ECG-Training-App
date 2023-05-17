@@ -23,14 +23,27 @@ public class ListAdapter extends ArrayAdapter<String> {
     private Context mContext;
     private List<String> mItemList;
     private List<String> mActivityList;
+    private List<String> mfragmentList;
+    private List<String> mquestionCategoryList;
     private boolean mForModule;
 
-    public ListAdapter(Context context, List<String> itemList, List<String> activityList, boolean forModule) {
+    public ListAdapter(Context context, List<String> itemList, List<String> activityList) {
         super(context, 0, itemList);
         mContext = context;
         mItemList = itemList;
         mActivityList = activityList;
-        mForModule = forModule;
+        mForModule = false;
+    }
+
+    public ListAdapter(Context context, List<String> itemList, List<String> activityList,
+                       List<String> fragmentList, List<String> questionCategoryList) {
+        super(context, 0, itemList);
+        mContext = context;
+        mItemList = itemList;
+        mActivityList = activityList;
+        mfragmentList = fragmentList;
+        mquestionCategoryList = questionCategoryList;
+        mForModule = true;
     }
 
     @Override
@@ -58,7 +71,17 @@ public class ListAdapter extends ArrayAdapter<String> {
                         Class<?> classActivityName = Class.forName(getContext().getPackageName() + "." + activityName);
                         Intent intent = new Intent(getContext(), classActivityName);
                         intent.putExtra("module_name", moduleName);
-                        startActivity(getContext(), intent, null);
+                        if (mForModule) { // add extra module data
+                            intent.putExtra("module_fragments", mfragmentList.get(position));
+                            if (position + 1 < mItemList.size())
+                                intent.putExtra("module_unlock", mItemList.get(position + 1));
+                            GlobalMethods.setPracticeQuestionCategory(getContext(), mquestionCategoryList.get(position));
+                            String completionKey = moduleName + "-completion";
+                            String value = GlobalMethods.getPreference(mContext, completionKey, "");
+                            if (value.equals("UNLOCKED") || value.equals("COMPLETED")) {
+                                startActivity(getContext(), intent, null);
+                            }
+                        } else startActivity(getContext(), intent, null);
                     } catch (ClassNotFoundException e) {
                         e.printStackTrace();
                     }
@@ -96,10 +119,15 @@ public class ListAdapter extends ArrayAdapter<String> {
                 moduleCheck.setImageResource(R.drawable.cvd_unlock);
                 break;
             case "LOCKED":
-            case "":
-                if (value.equals(""))
-                    GlobalMethods.setPreference(mContext, completionKey, position == 0 ? "UNLOCKED" : "LOCKED");
                 moduleCheck.setImageResource(R.drawable.cvd_lock);
+                break;
+            case "":
+                if (position == 0) {
+                    moduleCheck.setImageResource(R.drawable.cvd_unlock);
+                } else {
+                    moduleCheck.setImageResource(R.drawable.cvd_lock);
+                }
+                GlobalMethods.setPreference(mContext, completionKey, position == 0 ? "UNLOCKED" : "LOCKED");
                 break;
         }
 

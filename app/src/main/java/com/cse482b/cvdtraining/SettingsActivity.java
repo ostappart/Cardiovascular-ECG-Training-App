@@ -33,7 +33,7 @@ public class SettingsActivity extends AppCompatActivity {
                 ""
         );
 
-        ListAdapter topAdapter = new ListAdapter(this, itemList, activityList, false);
+        ListAdapter topAdapter = new ListAdapter(this, itemList, activityList);
         helpList.setAdapter(topAdapter);
 
         settings.setOnClickListener(new View.OnClickListener() {
