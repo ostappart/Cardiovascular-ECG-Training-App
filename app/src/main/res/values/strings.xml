@@ -33,5 +33,5 @@
     <string name="correct">That is correct!</string>
     <string name="incorrect">Incorrect, please try again</string>
     <string name="whatIsHeartrate">What is the closest number (bpm) to the heart rate in the below ECG?</string>
-    <string name="isItAtrialFibrilationOrSinus">The below ECG depicts Atrial Fibrillation, not Sinus Rhythm.</string>
+    <string name="isItAtrialFibrilationOrSinus">Does the below ECG depict Atrial Fibrillation or Sinus Rhythm?</string>
 </resources>
