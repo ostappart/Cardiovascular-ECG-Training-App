@@ -1,22 +1,66 @@
 [
   {
-    "word": "Algorithm",
-    "definition": "A step-by-step procedure for solving a computational problem."
+    "word": "Depolarization",
+    "definition": "An electrical shift that takes place within muscle cells, causing the muscle to reach action potential and ultimately contract. The electrical shift is measurable via the EKG, and allows the clinician to visually predict what the heart is doing and in what pattern. All muscle cells go through depolarization when they contract."
   },
   {
-    "word": "Variable",
-    "definition": "A named storage location that can hold a value which can be changed during program execution."
+    "word": "Repolarization",
+    "definition": "A secondary, smaller electrical shift that takes place after a depolarization. This prepares the cells to be able to depolarize again. Cardiac, skeletal, and smooth muscle cells all go through repolarization."
   },
   {
-    "word": "Function",
-    "definition": "A named sequence of statements that performs a specific task."
+    "word": "Baseline",
+    "definition": "Also called the isoelectric line. The EKG graph line when there is no electrical activity happening."
   },
   {
-    "word": "Array",
-    "definition": "A data structure that stores a fixed-size sequence of elements of the same type."
+    "word": "Artifact",
+    "definition": "Interference from movement of the other muscles during an EKG reading, causing the EKG to look distorted. Usually caused by movement, heavy breathing, or talking during the reading. All muscles produce electrical activity when they contract (see above - depolarization and repolarization) and any muscle movement during an EKG reading will be visible on the graph even if it does not originate from the heart."
   },
   {
-    "word": "Loop",
-    "definition": "A programming construct that repeats a set of instructions until a specific condition is met."
+    "word": "Automaticity",
+    "definition": "The ability of a cardiac muscle cell to spontaneously depolarize and reach action potential without external stimulation from a nerve or hormone. All cardiac muscle cells possess some degree of automaticity."
+  },
+  {
+    "word": "Irritability",
+    "definition": "The concept that individual heart muscle fibers, when deprived of a nutrient needed to function optimally (ie: oxygen, glucose, certain electrolytes), will attempt to contract without outside stimulation from another muscle cell AND without coordination from other parts of the heart. Irritability is a frequent cause of EKG abnormalities."
+  },
+  {
+    "word": "Pacemaker",
+    "definition": "The part of the heart from which depolarization originates. The SA node is normally the dominant pacemaker, though any part of the heart can be the pacemaker as all cardiac muscle tissue possesses automaticity."
+  },
+  {
+    "word": "SA Node",
+    "definition": "Sinoatrial node - a node located in the atrium from which the electrical impulse stimulating depolarization normally originates. The SA node is the dominant pacemaker in a normally functioning heart, and depolarizes at a rate of approximately 60-100 BPM at rest."
+  },
+  {
+    "word": "AV Node",
+    "definition": "Atrioventricular node - a node located between the atria and ventricles that regulates electrical impulse conduction between the chambers. The AV node’s primary function is to hold the electrical impulse originating from the SA node for a fraction of a second before it allows the electricity to continue into the ventricles. The AV node is also capable of functioning as the dominant pacemaker, though it is not the dominant pacemaker in a normally functioning heart."
+  },
+  {
+    "word": "Bundle of His",
+    "definition": "An insulated bundle of muscle fibers that extend from the AV node to the apex of the heart. The insulation around the bundle of His allows the electrical impulse to flow to the bottom of the ventricles before it stimulates depolarization in the ventricles. This enables the ventricles to pump from the bottom toward the top and is an important feature given the anatomic location of the semilunar valves near the top of the ventricles."
+  },
+  {
+    "word": "Rate vs Rhythm",
+    "definition": "Rate refers to the number of QRS complexes per minute (ie: a rate of 65 indicates there are 65 QRS complexes every 60 seconds). Rhythm refers to the regularity of the QRS complexes. If the QRS complexes occur at regular measurable intervals, the rhythm is called regular. If the QRS complexes occur at irregular or varying intervals but there is a pattern to the irregularity, it is referred to as “regularly irregular.” If the QRS complexes are irregular without a discernible pattern, it is referred to as “irregularly irregular.” Noting patterns or lack thereof in QRS irregularity can help you differentiate certain rhythms."
+  },
+  {
+    "word": "Electrode",
+    "definition": "The object that is adhered to the patient’s chest which connects to a wire, ultimately connecting to the computer that produces the EKG graph."
+  },
+  {
+    "word": "Lead",
+    "definition": "The measure of electricity towards a particular electrode. Leads can be positive (measuring electricity flowing toward them), negative (measuring electricity flowing away from them), unipolar (measuring both), and virtual (a “lead” that is not physically present on the patient calculated mathematically from the input from 2 other leads, meant to represent what the electrical activity looks like directly between the other 2 leads)."
+  },
+  {
+    "word": "Defibrillation",
+    "definition": "An electrical intervention used to correct certain arrhythmias. Defibrillation is used when a palpable pulse is absent but a “shockable rhythm” is present. We will review which specific rhythms are shockable during the interpretation sections. Defibrillation stimulates depolarization in the entirety of the heart at the same time, allowing it to “reset” as it repolarizes, ideally giving the SA node an opportunity to regain control as the dominant pacemaker. Defibrillation can be accomplished externally, with pads on the chest wall, or internally with a surgically implanted defibrillator device."
+  },
+  {
+    "word": "Cardioversion",
+    "definition": "A type of electrical intervention used to correct certain arrhythmias. Cardioversion is a type of defibrillation that is timed exactly with the heart rhythm to attempt to stop abnormal activity and allow the SA node to regain control as the dominant pacemaker. Cardioversion uses a smaller amount of electricity than defibrillation. Also called synchronized cardioversion."
+  },
+  {
+    "word": "Pacing",
+    "definition": "This term refers to the regulation of cardiac electrical activity and depolarization using an external source of electricity. This can be internal, as with an implanted pacemaker, or external with percutaneous pacemakers. There are numerous types of pacemaker, including atrial pacemakers that pace only the atria, ventricular pacemakers that pace only the ventricles, and pacemakers that pace both the atria and the ventricles."
   }
 ]
