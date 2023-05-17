@@ -51,6 +51,7 @@
         <activity
             android:name=".LessonActivity"
             android:exported="true"
+            android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:noHistory="true">
         </activity>

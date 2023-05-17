@@ -16,7 +16,6 @@
         android:layout_marginHorizontal="@dimen/_20ssp"
         android:background="@drawable/rounded_40dp_border"
         android:backgroundTint="@color/eggshell_white"
-        android:paddingBottom="@dimen/_5ssp"
         android:text="Lorem ipsum"
         android:textAllCaps="false"
         android:textColor="@color/black"

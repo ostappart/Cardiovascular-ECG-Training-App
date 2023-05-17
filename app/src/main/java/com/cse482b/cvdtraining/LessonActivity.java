@@ -1,27 +1,24 @@
 package com.cse482b.cvdtraining;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.github.chrisbanes.photoview.PhotoView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -69,7 +66,21 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
             List<JSONObject> jsonObject = GlobalMethods.parseJSONList(this, filename, "raw");
             jsonObjects.add(jsonObject);
         }
-        addBatchToScrollView(containerLayout, jsonObjects.get(0));
+
+        addBatchToScrollView(containerLayout, jsonObjects.get(savedInstanceState != null ?
+                savedInstanceState.getInt("contentPage") : contentPage));
+    }
+
+    @Override
+    protected void onSaveInstanceState (@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("contentPage", contentPage);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        contentPage = savedInstanceState.getInt("contentPage");
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -135,7 +146,8 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
                         ((TextView) view).setTextColor(Color.BLACK);
                         break;
                     case "image":
-                        view = new ImageView(this);
+                        // PhotoView enables zooming
+                        view = new PhotoView(this);
                         int resourceId = getResources().getIdentifier(value, "drawable", getPackageName());
                         ((ImageView) view).setImageResource(resourceId);
                         ((ImageView) view).setAdjustViewBounds(true);
