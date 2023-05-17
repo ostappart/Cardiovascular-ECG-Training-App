@@ -2,7 +2,6 @@ package com.cse482b.cvdtraining;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -119,7 +118,8 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
                 if (contentPage == jsonObjects.size() - 1) {
                     nextButton.setText(getResources().getText(R.string.practice));
                     GlobalMethods.setPreference(this, moduleName + "-completion", "COMPLETED");
-                    GlobalMethods.setPreference(this, moduleNext + "-completion", "UNLOCKED");
+                    if (!GlobalMethods.getPreference(this, moduleNext + "-completion", "").equals("COMPLETED"))
+                        GlobalMethods.setPreference(this, moduleNext + "-completion", "UNLOCKED");
                 }
                 break;
         }
