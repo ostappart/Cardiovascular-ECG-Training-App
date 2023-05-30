@@ -1,0 +1,4 @@
+{
+  "text": "We first want to identify the beginning and end of the different heartbeat components. For example the beginning of the p wave is the point right before the upward wave and the end is the point where the wave ends is at the same height as the beginning point. Once we know the beginning and end of the component we can count the number of squares in between the two points and multiply by 0.20 to get the number of seconds for each component",
+  "image": "ihr_intervals"
+}

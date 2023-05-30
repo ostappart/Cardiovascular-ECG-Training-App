@@ -1,0 +1,99 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welcome_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cvd_welcome_bg">
+
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to\n AliveCor Training"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/rounded_40dp"
+        android:textColor="@color/eggshell_white"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        android:alpha="0.9"
+        android:textAlignment="center"
+        android:padding="@dimen/_12ssp"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toLeftOf="@+id/right_guideline"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline"
+        />
+
+    <TextView
+        android:id="@+id/welcome_textName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="@dimen/_60ssp"
+        android:autoSizeMaxTextSize="@dimen/_60ssp"
+        android:autoSizeMinTextSize="@dimen/_50ssp"
+        android:autoSizeStepGranularity="2sp"
+        android:text=""
+        android:visibility="invisible"
+        android:autoSizeTextType="uniform"
+        />
+
+    <EditText
+        android:id="@+id/welcome_editText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70ssp"
+        android:background="@drawable/whitebg"
+        android:gravity="center"
+        android:hint="Enter Your Name"
+        android:textColorHint="#78909C"
+        android:importantForAutofill="no"
+        android:textSize="@dimen/_24ssp"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:maxLength="42"
+        app:layout_constraintBottom_toTopOf="@+id/welcome_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_title"
+        android:autofillHints="name"/>
+
+    <Button
+        android:id="@+id/welcome_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/rounded_40dp"
+        android:text="Let's Get Started!"
+        android:padding="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:alpha="0.9"
+        android:textColor="@color/eggshell_white"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_editText" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/top_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+{
+  "text": "Our eventual goal is to be able to determine a handful of heart abnomalities from looking at an ECG. A good way to start is to look at the intervals between wave peaks and compare them to approximately \"normal\" values. In this module we'll learn how to measure the relevant intervals and use them to determine heart rate.",
+  "image": "cvd_welcome_bg"
+}

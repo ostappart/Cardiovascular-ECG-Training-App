@@ -1,0 +1,18 @@
+isItArtifactOrArrhythmia
+images/60cycleInterference.png
+True, False
+isItPWave
+images/PWave.png
+True, False
+isItQWave
+images/PWave.png
+False, True
+isItRWave
+images/PWave.png
+False, True
+isItSWave
+images/PWave.png
+False, True
+isItTWave
+images/PWave.png
+False, True
