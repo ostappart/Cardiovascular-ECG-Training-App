@@ -10,56 +10,54 @@
         android:id="@+id/lessons_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="ECG Basics"
-        android:backgroundTint="@color/eggshell_white"
+        android:layout_marginHorizontal="@dimen/_5ssp"
         android:background="@drawable/rounded_20dp"
+        android:backgroundTint="@color/eggshell_white"
+        android:paddingVertical="10sp"
+        android:text="ECG Basics"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="@dimen/_20ssp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:paddingVertical="10sp"
-        android:layout_marginHorizontal="@dimen/_5ssp"
         app:layout_constraintLeft_toRightOf="@+id/lesson_home_button"
         app:layout_constraintRight_toLeftOf="@+id/lesson_help_button"
-        app:layout_constraintTop_toTopOf="@+id/top_guideline"
-        />
+        app:layout_constraintTop_toTopOf="@+id/top_guideline" />
 
     <ImageButton
         android:id="@+id/lesson_home_button"
         android:layout_width="@dimen/_60ssp"
         android:layout_height="@dimen/_60ssp"
+        android:adjustViewBounds="true"
         android:background="@drawable/oval_border"
         android:backgroundTint="@color/eggshell_white"
-        android:adjustViewBounds="true"
-        android:src="@drawable/cvd_home"
-        android:scaleType="fitCenter"
         android:paddingHorizontal="@dimen/_10ssp"
         android:paddingBottom="@dimen/_3ssp"
-        app:layout_constraintHorizontal_bias="0.035"
-        app:layout_constraintVertical_bias="0.015"
-        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cvd_home"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintVertical_bias="0.015" />
 
     <Button
         android:id="@+id/lesson_help_button"
         android:layout_width="@dimen/_60ssp"
         android:layout_height="@dimen/_60ssp"
+        android:layout_marginStart="@dimen/_3ssp"
         android:background="@drawable/oval_border"
         android:backgroundTint="@color/eggshell_white"
         android:text="\?"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="@dimen/_40ssp"
-        android:layout_marginStart="@dimen/_3ssp"
-        app:layout_constraintHorizontal_bias="0.965"
-        app:layout_constraintVertical_bias="0.015"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/lesson_home_button"
         app:layout_constraintBottom_toBottomOf="@id/lesson_home_button"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lesson_home_button"
+        app:layout_constraintVertical_bias="0.015" />
 
     <!-- white background lol -->
     <TextView
@@ -68,19 +66,19 @@
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/_60ssp"
         android:background="@drawable/whitebg_border"
+        app:layout_constraintBottom_toBottomOf="@+id/scroll_bottom_guideline"
         app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
         app:layout_constraintRight_toLeftOf="@+id/right_guideline"
-        app:layout_constraintTop_toTopOf="@+id/top_guideline"
-        app:layout_constraintBottom_toBottomOf="@+id/scroll_bottom_guideline"/>
+        app:layout_constraintTop_toTopOf="@+id/top_guideline" />
 
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/back_button"
         app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
         app:layout_constraintRight_toLeftOf="@id/right_guideline"
-        app:layout_constraintTop_toTopOf="@+id/whitebg"
-        app:layout_constraintBottom_toTopOf="@+id/back_button">
+        app:layout_constraintTop_toTopOf="@+id/whitebg">
 
         <LinearLayout
             android:id="@+id/lesson_layout_view"
@@ -112,20 +110,20 @@
         android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/_19ssp"
+        android:background="@drawable/rounded_20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingHorizontal="@dimen/_12ssp"
+        android:paddingVertical="@dimen/_5ssp"
         android:text="@string/back"
         android:textAllCaps="false"
-        android:backgroundTint="@color/colorPrimary"
-        android:background="@drawable/rounded_20dp"
-        android:paddingVertical="@dimen/_5ssp"
-        android:paddingHorizontal="@dimen/_12ssp"
+        android:textSize="@dimen/_19ssp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.15"
-        app:layout_constraintVertical_bias="0.945"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintVertical_bias="0.945" />
 
     <!--    android:layout_marginBottom="@dimen/_15ssp"-->
     <!--    android:layout_marginEnd="@dimen/_20ssp"-->
@@ -135,20 +133,20 @@
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/_19ssp"
+        android:background="@drawable/rounded_20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingHorizontal="@dimen/_12ssp"
+        android:paddingVertical="@dimen/_5ssp"
         android:text="@string/next"
         android:textAllCaps="false"
-        android:backgroundTint="@color/colorPrimary"
-        android:background="@drawable/rounded_20dp"
-        android:paddingVertical="@dimen/_5ssp"
-        android:paddingHorizontal="@dimen/_12ssp"
+        android:textSize="@dimen/_19ssp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.85"
-        app:layout_constraintVertical_bias="0.945"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintVertical_bias="0.945" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/top_guideline"
