@@ -1,0 +1,14 @@
+[
+  {"name": "Intro"},
+  {"fragments": "intro_what_is_an_ecg+intro_what_is_kardiamobile+intro_what_ecgs_look_like+intro_basic_heart+intro_what_are_ecg_parts+intro_conclusion"},
+  {"questions": "identifyPeaksSinus"},
+  {"activity": "LessonActivity"},
+  {"name": "Intervals and Heart Rate"},
+  {"fragments": "ihr_topics_motivation+ihr_ecg_intervals+ihr_heartbeat"},
+  {"questions": "heartbeatSinus"},
+  {"activity": "LessonActivity"},
+  {"name": "Arrhythmias and Abnormalities"},
+  {"fragments": "aa_overview+aa_tachycardia+aa_brachycardia+aa_vfib+aa_afib"},
+  {"questions": "isAtrialFibrilationOrSinus"},
+  {"activity": "LessonActivity"}
+]

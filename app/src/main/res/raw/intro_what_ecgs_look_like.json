@@ -1,0 +1,4 @@
+{
+  "text": "An ECG looks like a set of waves and lines on graph paper. The waves and lines represent the electrical activity of the heart. Each big box on the graph of an ECG represents 0.20 seconds (small boxes 0.04 seconds) horizontally and 0.50 milliVolts vertically (but the vertical axis isn't important for assessing the rhythms of the heart). Physically, each box is 10x10mm on printed paper.",
+  "image": "intro_example_ecgs"
+}

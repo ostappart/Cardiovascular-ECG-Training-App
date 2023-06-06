@@ -1,12 +1,37 @@
 <resources>
     <string name="app_name">CVD Training</string>
-    <string name="action_settings">Settings</string>
+    <string name="selection_box">Selection Box</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="next">&#160;&#160;&#160;&#160;Next&#160;&#160;&#160;&#160;</string>
+    <string name="back">&#160;&#160;&#160;&#160;Back&#160;&#160;&#160;&#160;</string>
+    <string name="practice">&#160;&#160;Practice&#160;&#160;</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- practice activity -->
+    <string name="practice_question">Practice Questions</string>
+    <string name="help">Help</string>
+    <string name="Home">Home</string>
+    <string name="loading">Loading...</string>
+
+    <!-- Questions -->
+    <string name="isItArtifactOrArrhythmia">This is not an Arrhythmia. It is an artifact from electrical interference (60 cycles).</string>
+    <string name="isItPWave">The highlighted section of the above ECG is a P-Wave.</string>
+    <string name="isItQWave">The highlighted section of the above ECG is a Q-Wave.</string>
+    <string name="isItRWave">The highlighted section of the above ECG is a R-Wave.</string>
+    <string name="isItSWave">The highlighted section of the above ECG is a S-Wave.</string>
+    <string name="isItTWave">The highlighted section of the above ECG is a T-Wave.</string>
+    <string name="noMoreQuestions">No More Questions of This Category :(</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="Next">Next</string>
+    <string name="Previous">Previous</string>
+    <string name="correct">That is correct!</string>
+    <string name="incorrect">Incorrect, please try again</string>
+    <string name="whatIsHeartrate">What is the closest number (bpm) to the heart rate in the below ECG?</string>
+    <string name="isItAtrialFibrilationOrSinus">Does the below ECG depict Atrial Fibrillation or Sinus Rhythm?</string>
 </resources>

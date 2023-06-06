@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:noHistory">true</item>
+    </style>
+
+    <style name="SearchViewTheme" parent="Widget.AppCompat.SearchView" >
+        <!-- Text Size -->
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <!-- Query Text Color -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Hint Color -->
+        <item name="android:textColorHint">@color/gray</item>
+        <!-- Icon Color -->
+        <item name="android:tint">@color/black</item>
+    </style>
+
+</resources>

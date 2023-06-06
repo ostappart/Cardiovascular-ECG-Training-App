@@ -1,0 +1,4 @@
+{
+  "text": "In order to determine the heartbeat we have to have a 6 second strip. A 6 second strip can be determined in a few ways. First we can look for the tick marks on the strip which indicate a 3 second interval. Look for 3 ticks and measure the heartbeat between the first and third tick. We can also look for 30 0.2s boxes which indicate a 6 second interval. In order to determine the heart rate we have to count the number of R peaks within the 6 second strip and multiply that number by 10.",
+  "image": "ihr_heartrate"
+}
