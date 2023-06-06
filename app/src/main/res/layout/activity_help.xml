@@ -21,7 +21,7 @@
         android:id="@+id/home_button"
         android:layout_width="@dimen/_60ssp"
         android:layout_height="@dimen/_60ssp"
-        android:background="@drawable/rounded_80dp"
+        android:background="@drawable/oval_border"
         android:backgroundTint="@color/eggshell_white"
         android:adjustViewBounds="true"
         android:src="@drawable/cvd_home"

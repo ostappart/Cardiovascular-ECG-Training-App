@@ -69,6 +69,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     private ImageView Image;
     private TextView questionTextView;
     private ImageButton homeButton;
+    private TextView practiceTitle;
     private Button helpButton;
 
     /** SharedPreferences for saved data */
@@ -79,6 +80,9 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     private String questionCategory;
     private List<Question> questions;
     private int currentQuestionIndex = 0;
+    private int correctSelected = -1;
+
+    private String moduleName;
 
     private void loadQuestions() {
         questionCategory = sharedPref.getString("questionCategory", "defaultQuestions");
@@ -121,6 +125,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         nextButton = findViewById(R.id.next_button);
         prevButton = findViewById(R.id.prev_button);
         homeButton = findViewById(R.id.practice_home_button);
+        practiceTitle = findViewById(R.id.practice_title);
         helpButton = findViewById(R.id.practice_help_button);
         questionTextView = findViewById(R.id.question_text);
         Image = findViewById(R.id.question_image);
@@ -134,6 +139,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         homeButton.setOnClickListener(this);
         helpButton.setOnClickListener(this);
 
+        moduleName = getIntent().getStringExtra("module_name");
+        practiceTitle.setText(moduleName);
         updateQuestion();
     }
 
@@ -161,6 +168,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
                 checkAnswer(3);
                 break;
             case R.id.next_button:
+                resetCorrectAnswerColor();
                 if (currentQuestionIndex < questions.size()) {
                     currentQuestionIndex = currentQuestionIndex + 1;
                     updateQuestion();
@@ -169,6 +177,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
                 }
                 break;
             case R.id.prev_button:
+                resetCorrectAnswerColor();
                 if (currentQuestionIndex > 0) {
                     currentQuestionIndex--;
                     updateQuestion();
@@ -237,11 +246,49 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
+    private void resetCorrectAnswerColor() {
+        if (correctSelected == -1) return;
+        int defaultColor = getResources().getColor(R.color.colorAccent);
+
+        switch (correctSelected) {
+            case 0:
+                topLeft.setBackgroundColor(defaultColor);
+                break;
+            case 1:
+                topRight.setBackgroundColor(defaultColor);
+                break;
+            case 2:
+                bottomLeft.setBackgroundColor(defaultColor);
+                break;
+            case 3:
+                bottomRight.setBackgroundColor(defaultColor);
+                break;
+        }
+        correctSelected = -1;
+    }
+
     private void checkAnswer(int userAnswer) {
         int toastMessageId;
+        int correctColor;
 
         if (questions.get(currentQuestionIndex).isCorrect(userAnswer)) {
             toastMessageId = R.string.correct;
+            correctColor = getResources().getColor(R.color.correctColor);
+            switch (userAnswer) {
+                case 0:
+                    topLeft.setBackgroundColor(correctColor);
+                    break;
+                case 1:
+                    topRight.setBackgroundColor(correctColor);
+                    break;
+                case 2:
+                    bottomLeft.setBackgroundColor(correctColor);
+                    break;
+                case 3:
+                    bottomRight.setBackgroundColor(correctColor);
+                    break;
+            }
+            correctSelected = userAnswer;
         } else {
             toastMessageId = R.string.incorrect;
         }
