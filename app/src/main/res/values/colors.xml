@@ -13,5 +13,7 @@
     <color name="colorPrimary">#114CC1</color>
     <color name="colorSecondary">#5A9FE5</color>
     <color name="colorAccent">#deecfa</color>
+    <color name="correctColor">#4CAF50</color>
+    <color name="practiceNavigationButtonColor">#fbf9f8</color>
 
 </resources>

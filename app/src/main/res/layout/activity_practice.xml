@@ -167,7 +167,7 @@
             android:id="@+id/prev_button"
             android:layout_width="100dp"
             android:layout_height="75dp"
-            android:backgroundTint="#fbf9f8"
+            android:backgroundTint="@color/practiceNavigationButtonColor"
             android:src="@drawable/angle_left_solid"
             android:text="@string/Previous" />
 
@@ -176,7 +176,7 @@
             android:id="@+id/next_button"
             android:layout_width="100dp"
             android:layout_height="75dp"
-            android:backgroundTint="#fbf9f8"
+            android:backgroundTint="@color/practiceNavigationButtonColor"
             android:src="@drawable/angle_right_solid"
             android:text="@string/Next" />
 
@@ -215,7 +215,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="206dp" />
+        app:layout_constraintGuide_percent="0.50" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/middle_answer_guideline"
