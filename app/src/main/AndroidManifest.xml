@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.cse482b.cvdtraining" >
+    package="com.cse482b.cvdtraining">
 
     <application
         android:allowBackup="true"
@@ -12,12 +12,19 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CVDTraining"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".StatsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".LaunchActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="true">
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,52 +34,44 @@
         <activity
             android:name=".WelcomeActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="true">
-        </activity>
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
             android:name=".HomeActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="true">
-        </activity>
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
             android:name=".SettingsActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="false" >
-        </activity>
+            android:noHistory="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
             android:name=".ResetModuleDialogActivity"
             android:exported="true"
-            android:theme="@style/Theme.Transparent"
-            android:noHistory="true">
-        </activity>
+            android:noHistory="true"
+            android:theme="@style/Theme.Transparent"></activity>
         <activity
             android:name=".AboutDialogActivity"
             android:exported="true"
-            android:theme="@style/Theme.Transparent"
-            android:noHistory="true">
-        </activity>
+            android:noHistory="true"
+            android:theme="@style/Theme.Transparent"></activity>
         <activity
             android:name=".LessonActivity"
-            android:exported="true"
             android:configChanges="orientation|screenSize"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="true">
-        </activity>
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
             android:name=".PracticeActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="true">
-        </activity>
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
             android:name=".DictionaryActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:noHistory="true">
-        </activity> 
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>

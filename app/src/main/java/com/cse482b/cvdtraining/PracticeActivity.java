@@ -267,11 +267,18 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         correctSelected = -1;
     }
 
+    private void updateStats(String stat, int delta) {
+        int value = sharedPref.getInt(stat, 0);
+        editor.putInt(stat, value + delta);
+        editor.apply();
+    }
+
     private void checkAnswer(int userAnswer) {
         int toastMessageId;
         int correctColor;
 
         if (questions.get(currentQuestionIndex).isCorrect(userAnswer)) {
+            updateStats("correct", 1);
             toastMessageId = R.string.correct;
             correctColor = getResources().getColor(R.color.correctColor);
             switch (userAnswer) {
@@ -290,6 +297,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
             }
             correctSelected = userAnswer;
         } else {
+            updateStats("incorrect", 1);
             toastMessageId = R.string.incorrect;
         }
 

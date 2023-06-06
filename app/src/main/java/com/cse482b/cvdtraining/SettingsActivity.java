@@ -24,11 +24,13 @@ public class SettingsActivity extends AppCompatActivity {
 
         List<String> itemList = Arrays.asList(
                 "Dictionary",
+                "Stats",
                 "Reset",
                 "About"
         );
         List<String> activityList = Arrays.asList(
                 "DictionaryActivity",
+                "StatsActivity",
                 "ResetModuleDialogActivity",
                 "AboutDialogActivity"
         );
