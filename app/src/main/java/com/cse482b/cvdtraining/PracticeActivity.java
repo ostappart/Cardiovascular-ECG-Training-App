@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -221,6 +222,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         Question current = questions.get(currentQuestionIndex);
 
         questionTextView.setText(current.text);
+        questionTextView.setTextSize(24);
+        questionTextView.setTextColor(Color.WHITE);
 
         if (current.answerOptions.length > 0) topLeft.setText(current.answerOptions[0]);
         else topLeft.setVisibility(View.INVISIBLE);

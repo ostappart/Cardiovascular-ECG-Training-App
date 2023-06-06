@@ -12,5 +12,6 @@
     <color name="eggshell_white">#fbf9f8</color>
     <color name="colorPrimary">#114CC1</color>
     <color name="colorSecondary">#5A9FE5</color>
+    <color name="colorAccent">#deecfa</color>
 
 </resources>
