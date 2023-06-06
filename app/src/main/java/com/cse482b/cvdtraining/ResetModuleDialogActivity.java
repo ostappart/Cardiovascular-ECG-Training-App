@@ -3,9 +3,8 @@ package com.cse482b.cvdtraining;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.WindowManager;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +17,15 @@ public class ResetModuleDialogActivity extends AppCompatActivity {
         AlertDialog dialog = createDialog();
         getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.show();
+        TextView message = (TextView) dialog.findViewById(android.R.id.message);
+        int titleId = getResources().getIdentifier( "alertTitle", "id", "com.cse482b.cvdtraining");
+        if (titleId > 0) {
+            TextView dialogTitle = (TextView) dialog.findViewById(titleId);
+            if (dialogTitle != null) {
+                dialogTitle.setTextSize(getResources().getDimension(com.intuit.ssp.R.dimen._9ssp));
+                message.setTextSize(getResources().getDimension(com.intuit.ssp.R.dimen._8ssp));
+            }
+        }
     }
 
     private AlertDialog createDialog() {

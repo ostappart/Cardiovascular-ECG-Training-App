@@ -9,7 +9,7 @@
         android:id="@+id/practice_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="ECG Basics Practice"
+        android:text="@string/loading"
         android:backgroundTint="@color/eggshell_white"
         android:background="@drawable/rounded_40dp"
         android:textColor="@color/black"

@@ -10,7 +10,7 @@
         android:id="@+id/lessons_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="ECG Basics"
+        android:text="@string/loading"
         android:backgroundTint="@color/eggshell_white"
         android:background="@drawable/rounded_20dp"
         android:textColor="@color/black"

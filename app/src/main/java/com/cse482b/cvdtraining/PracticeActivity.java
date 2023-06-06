@@ -68,6 +68,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     private ImageView Image;
     private TextView questionTextView;
     private ImageButton homeButton;
+    private TextView practiceTitle;
     private Button helpButton;
 
     /** SharedPreferences for saved data */
@@ -78,6 +79,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     private String questionCategory;
     private List<Question> questions;
     private int currentQuestionIndex = 0;
+
+    private String moduleName;
 
     private void loadQuestions() {
         questionCategory = sharedPref.getString("questionCategory", "defaultQuestions");
@@ -120,6 +123,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         nextButton = findViewById(R.id.next_button);
         prevButton = findViewById(R.id.prev_button);
         homeButton = findViewById(R.id.practice_home_button);
+        practiceTitle = findViewById(R.id.practice_title);
         helpButton = findViewById(R.id.practice_help_button);
         questionTextView = findViewById(R.id.question_text);
         Image = findViewById(R.id.question_image);
@@ -133,6 +137,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         homeButton.setOnClickListener(this);
         helpButton.setOnClickListener(this);
 
+        moduleName = getIntent().getStringExtra("module_name");
+        practiceTitle.setText(moduleName);
         updateQuestion();
     }
 
