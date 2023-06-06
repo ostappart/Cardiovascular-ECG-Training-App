@@ -30,7 +30,7 @@ public class SettingsActivity extends AppCompatActivity {
         List<String> activityList = Arrays.asList(
                 "DictionaryActivity",
                 "ResetModuleDialogActivity",
-                ""
+                "AboutDialogActivity"
         );
 
         ListAdapter topAdapter = new ListAdapter(this, itemList, activityList);

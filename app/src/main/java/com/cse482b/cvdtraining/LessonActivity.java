@@ -29,6 +29,7 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
 
     /** UI Elements */
     private ImageView homeButton;
+    private TextView lessonTitle;
     private Button helpButton;
     private LinearLayout containerLayout;
     private Button backButton;
@@ -45,6 +46,7 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_lesson);
 
         homeButton = findViewById(R.id.lesson_home_button);
+        lessonTitle = findViewById(R.id.lessons_title);
         helpButton = findViewById(R.id.lesson_help_button);
         containerLayout = findViewById(R.id.lesson_layout_view);
         backButton = findViewById(R.id.back_button);
@@ -60,6 +62,8 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
         moduleName = getIntent().getStringExtra("module_name");
         moduleNext = getIntent().getStringExtra("module_unlock");
         String[] moduleFragments = getIntent().getStringExtra("module_fragments").split("\\+");
+
+        lessonTitle.setText(moduleName);
 
         for (String filename : moduleFragments)  {
             List<JSONObject> jsonObject = GlobalMethods.parseJSONList(this, filename, "raw");
@@ -109,6 +113,7 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
             case R.id.next_button:
                 if (contentPage + 1 >= jsonObjects.size()) {
                     intent = new Intent(LessonActivity.this, PracticeActivity.class);
+                    intent.putExtra("module_name", moduleName + " Practice");
                     startActivity(intent);
                     return;
                 }

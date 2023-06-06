@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CVD Training</string>
-    <string name="selection_box">Selection Box</string>
+    <string name="app_name">AliveCor Training</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -8,15 +8,25 @@
     <string name="back">&#160;&#160;&#160;&#160;Back&#160;&#160;&#160;&#160;</string>
     <string name="practice">&#160;&#160;Practice&#160;&#160;</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="aboutInformation">
+        This ECG training app is designed specifically for Indian
+        Volunteer healthcare workers (ASHAs). It contains training lessons on the basics
+        of reading ECGs tailored for ASHAs, and includes practice questions with
+        progress updates. Through user testing, the design and lessons are meant to be
+        simple and easy to navigate.
+
+        \n\nMobile ECG devices make it possible to perform community screening for heart conditions.
+        When these screenings are performed by front line health workers, it is necessary to provide
+        some basic health training to the workers to help them explain the results to patients.
+
+        \n\nCreated as part of a capstone project for CSE482B at the University of Washington.
+    </string>
 
     <!-- practice activity -->
     <string name="practice_question">Practice Questions</string>
     <string name="help">Help</string>
     <string name="Home">Home</string>
-    <string name="loading">Loading...</string>
+    <string name="loading">Loading…</string>
 
     <!-- Questions -->
     <string name="isItArtifactOrArrhythmia">This is not an Arrhythmia. It is an artifact from electrical interference (60 cycles).</string>
