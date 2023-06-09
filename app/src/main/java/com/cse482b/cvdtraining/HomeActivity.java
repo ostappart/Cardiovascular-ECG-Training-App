@@ -20,15 +20,23 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
+/**
+ * HomeActivity is the main screen that displays all the modules.
+ */
 public class HomeActivity extends AppCompatActivity {
 
+    /**
+     * True iff this is the first time the user visits the application (then they've been shown a prompt
+     * for their name, otherwise we'll greet them to flex knowing their name)
+     */
     boolean newUser = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Welcome user back if it's their first time visiting
+        // Only runs onCreate so not everytime user visits home, just when the app starts
         newUser = getIntent().getBooleanExtra("newUser", true);
         System.out.println(newUser);
         if (!newUser) {
@@ -44,6 +52,7 @@ public class HomeActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_home);
 
+        // Load modules from modules.json
         ListView listView = findViewById(R.id.module_list);
         Button settings = findViewById(R.id.help_button);
         List<JSONObject> moduleJSONs = GlobalMethods.parseJSONList(this, "modules", "raw");
@@ -63,6 +72,7 @@ public class HomeActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        // Use the ListAdapter to display the modules
         ListAdapter adapter = new ListAdapter(this, itemList, activityList, fragmentList, questionCategoryList);
         listView.setAdapter(adapter);
 

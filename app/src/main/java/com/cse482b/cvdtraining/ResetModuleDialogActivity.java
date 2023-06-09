@@ -9,6 +9,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * ResetModuleDialogActivity displays a dialog for the user to confirm if the want to rest their module progress.
+ */
 public class ResetModuleDialogActivity extends AppCompatActivity {
 
     @Override

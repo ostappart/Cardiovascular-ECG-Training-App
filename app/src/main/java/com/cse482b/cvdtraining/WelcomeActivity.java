@@ -18,11 +18,21 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * WelcomeActivity is shown to the user the first time they open the application, it welcomes them,
+ * prompts for their name which we store so we can greet them on subsequent visits (plus this might
+ * be useful if notifications are ever implemented).
+ */
 public class WelcomeActivity extends AppCompatActivity {
 
+    /**
+     * Allow the user to enter text.
+     */
     private EditText mEditText;
+    /**
+     * Display the text nicely.
+     */
     private TextView mTextView;
-    private Button mButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +40,7 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
         mEditText = findViewById(R.id.welcome_editText);
-        mButton = findViewById(R.id.welcome_button);
+        Button mButton = findViewById(R.id.welcome_button);
         mTextView = findViewById(R.id.welcome_textName);
 
         mButton.setOnClickListener(new View.OnClickListener() {

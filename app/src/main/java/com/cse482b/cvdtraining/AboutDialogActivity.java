@@ -9,6 +9,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * AboutDialogActivity displays an alert dialog that explains the application.
+ */
 public class AboutDialogActivity extends AppCompatActivity {
 
     @Override

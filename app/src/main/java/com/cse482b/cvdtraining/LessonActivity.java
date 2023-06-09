@@ -22,17 +22,18 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
+/**
+ * LessonActivity takes care of displaying the module screen.
+ */
 public class LessonActivity extends AppCompatActivity implements View.OnClickListener {
 
+    /**
+     * Keeps track of which page/slide of the module we are on.
+     */
     private int contentPage = 0;
 
-    /** UI Elements */
-    private ImageView homeButton;
-    private TextView lessonTitle;
-    private Button helpButton;
+    /* UI Elements */
     private LinearLayout containerLayout;
-    private Button backButton;
     private Button nextButton;
 
     /** Module data */
@@ -45,11 +46,12 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson);
 
-        homeButton = findViewById(R.id.lesson_home_button);
-        lessonTitle = findViewById(R.id.lessons_title);
-        helpButton = findViewById(R.id.lesson_help_button);
+        /* UI Elements */
+        ImageView homeButton = findViewById(R.id.lesson_home_button);
+        TextView lessonTitle = findViewById(R.id.lessons_title);
+        Button helpButton = findViewById(R.id.lesson_help_button);
         containerLayout = findViewById(R.id.lesson_layout_view);
-        backButton = findViewById(R.id.back_button);
+        Button backButton = findViewById(R.id.back_button);
         nextButton = findViewById(R.id.next_button);
         jsonObjects = new ArrayList<>();
 
@@ -59,6 +61,7 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
         backButton.setOnClickListener(this);
         nextButton.setOnClickListener(this);
 
+        // Load module data
         moduleName = getIntent().getStringExtra("module_name");
         moduleNext = getIntent().getStringExtra("module_unlock");
         String[] moduleFragments = getIntent().getStringExtra("module_fragments").split("\\+");
@@ -70,6 +73,7 @@ public class LessonActivity extends AppCompatActivity implements View.OnClickLis
             jsonObjects.add(jsonObject);
         }
 
+        // Add everything to the scroll view
         addBatchToScrollView(containerLayout, jsonObjects.get(savedInstanceState != null ?
                 savedInstanceState.getInt("contentPage") : contentPage));
     }

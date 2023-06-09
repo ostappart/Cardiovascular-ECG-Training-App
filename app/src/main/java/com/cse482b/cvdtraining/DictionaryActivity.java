@@ -15,27 +15,30 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
+/**
+ * DictionaryActivity provides a full dictionary screen with searchable and scrollable word-definition items.
+ */
 public class DictionaryActivity extends AppCompatActivity {
 
-    private SearchView searchView;
-    private List<String[]> itemList;    // [{Word, Definition}, ...]
-    private RecyclerView recyclerView;
+    /**
+     * A list of word-definition items/pairs, i.e. [{Word, Definition}, ...]
+     */
+    private List<String[]> itemList;
+    /**
+     * Manages displaying the portion of the itemList that we filter using the search word.
+     * @see androidx.recyclerview.widget.RecyclerView.Adapter
+     */
     private ItemAdapter itemAdapter;
-    private RecyclerView.LayoutManager layoutManager;
-    private String jsonFilename = "dictionary";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dictionary);
 
-        ImageView home = findViewById(R.id.dict_home_button);
-        Button help = findViewById(R.id.dict_help_button);
-
-        searchView = findViewById(R.id.searchView);
+        // Set up the search input
+        SearchView searchView = findViewById(R.id.searchView);
         ImageView searchIcon = searchView.findViewById(androidx.appcompat.R.id.search_mag_icon);
         searchIcon.setAdjustViewBounds(true);
 
@@ -51,7 +54,9 @@ public class DictionaryActivity extends AppCompatActivity {
             }
         });
 
+        // Load the dictionary items from the dictionary.json
         itemList = new ArrayList<>();
+        String jsonFilename = "dictionary";
         List<JSONObject> jsonObjects = GlobalMethods.parseJSONList(this, jsonFilename, "raw");
 
         for (JSONObject jsonObject : jsonObjects) {
@@ -62,13 +67,16 @@ public class DictionaryActivity extends AppCompatActivity {
             }
         }
 
-        recyclerView = findViewById(R.id.recyclerView);
-        layoutManager = new LinearLayoutManager(this);
+        // Set up the RecyclerView for displaying the dictionary items
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         itemAdapter = new ItemAdapter(this, itemList);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(itemAdapter);
 
-
+        // Home and Help buttons
+        ImageView home = findViewById(R.id.dict_home_button);
+        Button help = findViewById(R.id.dict_help_button);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -86,6 +94,11 @@ public class DictionaryActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Uses the itemAdapter to filter the RecyclerView to only show items in itemList where the word
+     * contains the characters in the search string (ignoring case).
+     * @param text the search string to filter by
+     */
     private void filterList(String text) {
         List<String[]> filteredList = new ArrayList<>();
         for (String[] item : itemList)

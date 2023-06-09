@@ -12,20 +12,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import java.util.List;
 
+/**
+ * The adapter that enables going through a list of items handled by different activities.
+ */
 public class ListAdapter extends ArrayAdapter<String> {
-    private Context mContext;
-    private List<String> mItemList;
-    private List<String> mActivityList;
+    private final Context mContext;
+    private final List<String> mItemList;
+    private final List<String> mActivityList;
     private List<String> mfragmentList;
     private List<String> mquestionCategoryList;
-    private boolean mForModule;
+    private final boolean mForModule;
 
     public ListAdapter(Context context, List<String> itemList, List<String> activityList) {
         super(context, 0, itemList);
@@ -96,9 +98,6 @@ public class ListAdapter extends ArrayAdapter<String> {
 
             ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) textView.getLayoutParams();
             params.width = ActionBar.LayoutParams.MATCH_PARENT;
-//            params.setMargins(30, 30, 30, 30);
-//            int padding = 16;
-//            textView.setPadding(padding, 0, padding, 0);
             textView.setLayoutParams(params);
 
             return convertView;

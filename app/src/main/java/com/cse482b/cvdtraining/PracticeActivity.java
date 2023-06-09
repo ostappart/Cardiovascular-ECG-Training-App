@@ -27,7 +27,13 @@ import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * PracticeActivity handles the practice questions at the end of each module by loading them from the assets.
+ */
 public class PracticeActivity extends AppCompatActivity implements View.OnClickListener {
+    /**
+     * Stores the question data (prompt, image, answer options, etc) associated with a single question.
+     */
     private class Question {
         public String text;
         public String imagePath;
@@ -68,9 +74,6 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     private ImageButton prevButton;
     private ImageView Image;
     private TextView questionTextView;
-    private ImageButton homeButton;
-    private TextView practiceTitle;
-    private Button helpButton;
 
     /** SharedPreferences for saved data */
     SharedPreferences sharedPref;
@@ -82,15 +85,17 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     private int currentQuestionIndex = 0;
     private int correctSelected = -1;
 
-    private String moduleName;
-
+    /**
+     * Handles loading the relevant questions based on the question category specified in the shared preferences of this context.
+     *
+     * Expects the format of the question data .txt file to be 3 lines per question:
+     *  [Question Type]
+     *  [Image Path]
+     *  [Answer Options - first one should be the correct one]
+     */
     private void loadQuestions() {
         questionCategory = sharedPref.getString("questionCategory", "defaultQuestions");
         currentQuestionIndex = sharedPref.getInt("currentIX" + questionCategory, 0);
-        // Expected format (3 lines per question):
-        // [Question Type]
-        // [Image Path]
-        // [Answer Options - first one should be the correct one]
         questions = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(
                 new InputStreamReader(getAssets().open("questions/" + questionCategory + ".txt")))) {
@@ -124,9 +129,9 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         bottomRight = findViewById(R.id.buttonRightBottom);
         nextButton = findViewById(R.id.next_button);
         prevButton = findViewById(R.id.prev_button);
-        homeButton = findViewById(R.id.practice_home_button);
-        practiceTitle = findViewById(R.id.practice_title);
-        helpButton = findViewById(R.id.practice_help_button);
+        ImageButton homeButton = findViewById(R.id.practice_home_button);
+        TextView practiceTitle = findViewById(R.id.practice_title);
+        Button helpButton = findViewById(R.id.practice_help_button);
         questionTextView = findViewById(R.id.question_text);
         Image = findViewById(R.id.question_image);
 
@@ -139,7 +144,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         homeButton.setOnClickListener(this);
         helpButton.setOnClickListener(this);
 
-        moduleName = getIntent().getStringExtra("module_name");
+        String moduleName = getIntent().getStringExtra("module_name");
         practiceTitle.setText(moduleName);
         updateQuestion();
     }

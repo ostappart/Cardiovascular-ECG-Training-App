@@ -18,6 +18,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * StatsActivity shows some quick stats regarding the question progress of the user.
+ */
 public class StatsActivity extends AppCompatActivity {
 
     PieChart pieChart;

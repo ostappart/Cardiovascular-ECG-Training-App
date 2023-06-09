@@ -1,13 +1,12 @@
 package com.cse482b.cvdtraining;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * A blank activity used for development when a page links to another page that has not yet been created.
+ */
 public class EndActivity extends AppCompatActivity {
 
     @Override

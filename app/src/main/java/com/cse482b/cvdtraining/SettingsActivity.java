@@ -11,7 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Arrays;
 import java.util.List;
 
-
+/**
+ * SettingsActivity Presents a quick menu of various screens like the dictionary or stats page.
+ */
 public class SettingsActivity extends AppCompatActivity {
 
     @Override
